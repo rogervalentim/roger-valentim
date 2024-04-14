@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { FaCode } from "react-icons/fa";
+import { navLinks } from "../constants/index";
 
 export function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -22,20 +23,13 @@ export function Navbar() {
           <FaCode className="size-6 fill-aquamarine-500 hover:fill-aquamarine-600" />
         <h1 className="text-aquamarine-500 font-bold text-lg">Roger</h1>
         </div>
-        <ul className="hidden lg:flex lg:gap-5"> 
+        {navLinks.map(item => (
+        <ul className="hidden lg:flex lg:gap-5" key={item.id}> 
           <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
-            Inicio
-          </li>
-          <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
-            Sobre
-          </li>
-          <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
-            Tecnologias
-          </li>
-          <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
-            Projetos
+            {item.link}
           </li>
         </ul>
+        ))}
 
         {!openMenu ? (
           <Button type="button" className="flex items-center lg:hidden" variant="link" size="icon" onClick={toggleOpenMenu} aria-label="Abrir menu">
@@ -50,20 +44,13 @@ export function Navbar() {
       
      {openMenu && (
       <div className="z-auto absolute border-b border-border/40 flex  w-full h-screen bg-popover">
-      <ul className="flex  flex-col items-center space-y-4 w-full mt-2 px-10">
+      {navLinks.map(item => (
+      <ul className="flex  flex-col items-center space-y-4 w-full mt-2 px-10" key={item.id}>
       <li className="text-muted-foreground text-lg cursor-pointer ">
-        Inicio
-      </li>
-      <li className="text-muted-foreground text-lg cursor-pointer">
-        Sobre
-      </li>
-      <li className="text-muted-foreground text-lg cursor-pointer">
-        Tecnologias
-      </li>
-      <li className="text-muted-foreground text-lg cursor-pointer">
-        Projetos
+        {item.link}
       </li>
     </ul>
+      ))}
     </div>
      )}
      
