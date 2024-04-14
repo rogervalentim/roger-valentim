@@ -1,0 +1,73 @@
+import { useState } from "react";
+import { Button } from "./ui/button";
+import { Menu, X } from "lucide-react";
+import { FaCode } from "react-icons/fa";
+
+export function Navbar() {
+  const [openMenu, setOpenMenu] = useState(false);
+
+  function toggleOpenMenu() {
+    setOpenMenu(true);
+  }
+
+  function closeMenu() {
+    setOpenMenu(false);
+  }
+
+  return (
+    <>
+    <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="px-10 h-14 flex justify-between border-b border-border/40 items-center flex-row">
+        <div className="flex items-center gap-2 cursor-pointer">
+          <FaCode className="size-6 fill-aquamarine-500 hover:fill-aquamarine-600" />
+        <h1 className="text-aquamarine-500 font-bold text-lg">Roger</h1>
+        </div>
+        <ul className="hidden lg:flex lg:gap-5"> 
+          <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
+            Inicio
+          </li>
+          <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
+            Sobre
+          </li>
+          <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
+            Tecnologias
+          </li>
+          <li className="text-muted-foreground text-lg hover:text-white cursor-pointer">
+            Projetos
+          </li>
+        </ul>
+
+        {!openMenu ? (
+          <Button type="button" className="flex items-center lg:hidden" variant="link" size="icon" onClick={toggleOpenMenu} aria-label="Abrir menu">
+            <Menu className="text-muted-foreground fill-text-muted-foreground" />
+          </Button>
+        ) : (
+          <Button type="button" className="flex items-center lg:hidden" variant="link" size="icon" onClick={closeMenu} aria-label="Fechar menu">
+            <X className="text-muted-foreground fill-text-muted-foreground"/>
+          </Button>
+        )}
+      </div>
+      
+     {openMenu && (
+      <div className="z-auto absolute border-b border-border/40 flex  w-full h-screen bg-popover">
+      <ul className="flex  flex-col items-center space-y-4 w-full mt-2 px-10">
+      <li className="text-muted-foreground text-lg cursor-pointer ">
+        Inicio
+      </li>
+      <li className="text-muted-foreground text-lg cursor-pointer">
+        Sobre
+      </li>
+      <li className="text-muted-foreground text-lg cursor-pointer">
+        Tecnologias
+      </li>
+      <li className="text-muted-foreground text-lg cursor-pointer">
+        Projetos
+      </li>
+    </ul>
+    </div>
+     )}
+     
+    </nav>
+    </>
+  );
+}
