@@ -38,6 +38,7 @@ export function CardProjects({
         <h2 className="font-bold text-xl mb-2">
           {name}
         </h2>
+
         <p className="text-ronchi-50 pt-2">
           {description}
         </p>
@@ -50,6 +51,7 @@ export function CardProjects({
           )}
         </div>
       </div>
+
       <div className="flex items-center justify-between px-6 pt-2 ">
         <a
           className="text-muted-foreground hover:text-primary"

@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { FaCode } from "react-icons/fa";
 import { navLinks } from "../constants/index";
+import { NavMobile } from "./nav-mobile";
 
 export function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -43,15 +44,7 @@ export function Navbar() {
       </div>
       
      {openMenu && (
-      <div className="z-auto absolute border-b border-border/40 flex  w-full h-screen bg-popover">
-      <ul className="flex  flex-col items-center space-y-4 w-full mt-2 px-10">
-      {navLinks.map(item => (
-      <li className="text-muted-foreground font-semibold text-lg cursor-pointer " key={item.id}>
-        {item.link}
-      </li>
-      ))}
-      </ul>
-    </div>
+      <NavMobile />
      )}
      
     </nav>

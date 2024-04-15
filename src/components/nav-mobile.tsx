@@ -1,0 +1,54 @@
+import { navLinks } from "@/constants";
+import { Button } from "./ui/button";
+import { ArrowDownToLine } from "lucide-react";
+
+export function NavMobile() {
+  return (
+    <div className="z-auto absolute border-b border-border/40 flex flex-col w-full h-screen bg-popover">
+      <ul className="flex flex-col items-center w-full ">
+        {navLinks.map(item =>
+          <li
+            className="w-full border-b border-collapse p-4 px-10 text-muted-foreground hover:text-white font-semibold text-lg cursor-pointer"
+            key={item.id}
+          >
+            {item.link}
+          </li>
+        )}
+      </ul>
+
+      <div className="flex justify-center mt-5">
+        <Button
+          type="button"
+          className="w-64 font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700"
+        >
+          Baixar CV
+          <ArrowDownToLine className="text-ronchi-950" />
+        </Button>
+      </div>
+
+      <div className="flex justify-center gap-5 mt-14">
+        <a
+          className="text-muted-foreground text-lg font-bold hover:text-white"
+          href="https://www.linkedin.com/in/rogervalentim33"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a
+          className="text-muted-foreground text-lg font-bold hover:text-white"
+          href="https://www.github.com/rogervalentim"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        <a
+          className="text-muted-foreground text-lg font-bold hover:text-white"
+          href="https://api.whatsapp.com/send/?phone=11970506367&text&type=phone_number&app_absent=0"
+          target="_blank"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  );
+}
