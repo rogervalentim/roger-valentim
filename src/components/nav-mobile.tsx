@@ -1,10 +1,16 @@
 import { navLinks } from "@/constants";
 import { Button } from "./ui/button";
 import { ArrowDownToLine } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function NavMobile() {
   return (
-    <div className="z-auto absolute border-b border-border/40 flex flex-col w-full h-screen bg-popover">
+    <motion.div
+      className="z-auto absolute border-b border-border/40 flex flex-col w-full h-screen bg-popover"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.1 }}
+    >
       <ul className="flex flex-col items-center w-full ">
         {navLinks.map(item =>
           <li
@@ -49,6 +55,6 @@ export function NavMobile() {
           WhatsApp
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }
