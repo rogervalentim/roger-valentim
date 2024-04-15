@@ -30,9 +30,9 @@ export function About() {
         corrupti molestiae recusandae?
       </p>
       </motion.div>
-      <Button type="button" className="font-bold flex gap-2 mt-4 text-chetwode-blue-950 bg-gradient-to-t from-chetwode-blue-500 to-chetwode-blue-600 hover:bg-gradient-to-t hover:from-chetwode-blue-600 hover:to-chetwode-blue-700">
+      <Button type="button" className="font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700">
         Baixar CV
-        <ArrowDownToLine className="text-chetwode-blue-950" />
+        <ArrowDownToLine className="text-ronchi-950" />
       </Button>
       </div>
 

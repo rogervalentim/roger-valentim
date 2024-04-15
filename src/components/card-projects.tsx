@@ -38,7 +38,7 @@ export function CardProjects({
         <h2 className="font-bold text-xl mb-2">
           {name}
         </h2>
-        <p className="text-chetwode-blue-50 pt-2">
+        <p className="text-ronchi-50 pt-2">
           {description}
         </p>
       </div>
@@ -46,11 +46,7 @@ export function CardProjects({
       <div className="px-6 pt-2 pb-2">
         <div className="flex gap-1">
           {technologies.map(Icon =>
-            <Icon
-              size={30}
-              className="fill-chetwode-blue-500"
-              key={Icon.name}
-            />
+            <Icon size={30} className="fill-ronchi-500" key={Icon.name} />
           )}
         </div>
       </div>

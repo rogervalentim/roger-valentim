@@ -14,11 +14,11 @@ const childVariant = {
 export function CardSkills({ name, icon: Icon }: SkillsProps) {
   return (
     <motion.div
-      className="flex flex-col gap-2 justify-center items-center border-2 border-chetwode-blue-900 max-w-full w-36 h-36 rounded-lg"
+      className="flex flex-col gap-2 justify-center items-center border-2 border-ronchi-900 max-w-full w-36 h-36 rounded-lg"
       variants={childVariant}
     >
-      <Icon className="fill-chetwode-blue-500 size-20 hover:fill-chetwode-blue-600 cursor-pointer" />
-      <p className="text-chetwode-blue-50">
+      <Icon className="fill-ronchi-500 size-20 hover:fill-ronchi-600 cursor-pointer" />
+      <p className="text-ronchi-50">
         {name}
       </p>
     </motion.div>
