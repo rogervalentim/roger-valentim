@@ -71,3 +71,15 @@ export const skills = [
         icon:  images.FaGitAlt,
     },
 ]
+
+export const projectsaData = [
+    {
+        id: 1,
+        name: "Roger cine",
+        description: "Esse site foi feito com o intuito de os usuários consigam achar filmes, séries e atores, facilmente",
+        technologies: [images.FaReact, images.BiLogoTailwindCss, images.BiLogoTypescript, images.FaGithub],
+        image: images.rogerCine,
+        deploy: "https://roger-cines.netlify.app/",
+        repository: "https://github.com/rogervalentim/movies",
+    }
+]
