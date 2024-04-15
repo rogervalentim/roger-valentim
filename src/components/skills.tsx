@@ -6,7 +6,7 @@ export function Skills() {
   const container = {
     hidden: {},
     visible: {
-        transition: { staggerChildren: 0.2 }
+    transition: { staggerChildren: 0.2 }
     }
 }
 
