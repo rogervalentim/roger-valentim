@@ -2,6 +2,7 @@ import { ArrowDownToLine } from "lucide-react";
 import computer from "../assets/computer.jpg";
 import { Button } from "./ui/button";
 import { motion } from "framer-motion";
+import curriculum from "../assets/CV-ROGER-VALENTIM-DESENVOLVEDOR-FRONT-END.pdf";
 
 export function About() {
   return (
@@ -24,17 +25,22 @@ export function About() {
            visible: { opacity: 1, x: 0 },
          }}>
       <p className="px-6 lg:px-0 leading-normal text-muted-foreground">
-      Com uma sólida compreensão das tecnologias web modernas e um olhar atento para o design, me dedico a construir interfaces limpas, responsivas e acessíveis.<br/> 
-      Acredito que um bom design é mais do que apenas aparência;
-      é sobre criar uma interação intuitiva e eficiente entre o usuário e a aplicação.
-      Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente e contribuir para projetos inovadores.
-      Se você está procurando um desenvolvedor que possa transformar suas ideias em realidade e agregar valor ao seu projeto, vamos conversar!
-      </p>
+      Desenvolvedor Front-End Apaixonado com experiência prática na criação 
+      de interfaces de usuário interativas e responsivas. Especializado em React 
+      e TypeScript, com habilidade para construir componentes reutilizáveis e eficientes. 
+      Proficiente no uso de Tailwind CSS para design utilitário de primeira classe, 
+      garantindo uma estética consistente e moderna. Experiência com Shadcn UI 
+      para um design de interface limpo e acessível, e Framer Motion 
+      para adicionar animações fluidas e naturais, enriquecendo a experiência do usuário. 
+      Comprometido com a escrita de código 
+      limpo e a implementação de melhores práticas de desenvolvimento web.</p>
       </motion.div>
+    <a href={curriculum} target="_blank">
       <Button type="button" className="font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700">
         Baixar CV
         <ArrowDownToLine className="text-ronchi-950" />
       </Button>
+    </a> 
       </div>
 
     </section>

@@ -2,6 +2,7 @@ import { navLinks } from "@/constants";
 import { Button } from "./ui/button";
 import { ArrowDownToLine } from "lucide-react";
 import { motion } from "framer-motion";
+import curriculum from "../assets/CV-ROGER-VALENTIM-DESENVOLVEDOR-FRONT-END.pdf";
 
 interface NavMobileProps {
   closeMenu: () => void;
@@ -15,27 +16,29 @@ export function NavMobile({ closeMenu }: NavMobileProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.1 }}
     >
-      <ul className="flex flex-col items-center w-full ">
+      <ul className="flex flex-col items-center w-full">
         {navLinks.map(item =>
-          <a
-            href={`#${item.link}`}
+          <li
             className="w-full border-b border-collapse p-4 px-10 text-muted-foreground hover:text-white font-semibold text-lg cursor-pointer"
             key={item.id}
-            onClick={closeMenu}
           >
-            {item.link}
-          </a>
+            <a href={`#${item.link}`} onClick={closeMenu}>
+              {item.link}
+            </a>
+          </li>
         )}
       </ul>
 
       <div className="flex justify-center mt-5">
-        <Button
-          type="button"
-          className="w-64 font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700"
-        >
-          Baixar CV
-          <ArrowDownToLine className="text-ronchi-950" />
-        </Button>
+        <a href={curriculum} target="_blank">
+          <Button
+            type="button"
+            className="w-64 font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700"
+          >
+            Baixar CV
+            <ArrowDownToLine className="text-ronchi-950" />
+          </Button>
+        </a>
       </div>
 
       <div className="flex justify-center gap-5 mt-14">

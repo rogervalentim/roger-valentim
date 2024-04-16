@@ -33,9 +33,14 @@ export function Navbar() {
         </div>
        <ul className="hidden lg:flex lg:gap-5"> 
         {navLinks.map(item => (
-          <a href={`#${item.link}`} className="text-muted-foreground font-semibold text-lg hover:text-white cursor-pointer" key={item.id}>
+          <li key={item.id}>
+          <a 
+           href={`#${item.link}`} 
+           className="text-muted-foreground font-semibold text-lg hover:text-white cursor-pointer" 
+          >
             {item.link}
           </a>
+          </li>
         ))}
         </ul>
 
