@@ -76,10 +76,19 @@ export const projectsaData = [
     {
         id: 1,
         name: "Roger cine",
-        description: "Esse site foi feito com o intuito de os usuários consigam achar filmes, séries e atores, facilmente",
+        description: " O Roger Cine é um portal interativo projetado para facilitar a descoberta de filmes, séries e informações sobre atores. Com uma interface intuitiva e recursos de busca avançados, os usuários podem encontrar facilmente o conteúdo de entretenimento que amam.",
         technologies: [images.FaReact, images.BiLogoTailwindCss, images.BiLogoTypescript, images.FaGithub],
         image: images.rogerCine,
         deploy: "https://roger-cines.netlify.app/",
         repository: "https://github.com/rogervalentim/movies",
-    }
+    },
+    {
+        id: 2,
+        name: "Mks Sistemas",
+        description: "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado.",
+        technologies: [images.SiNextdotjs, images.SiStyledcomponents, images.BiLogoTypescript, images.SiJest, images.FaGithub],
+        image: images.mksSistemas,
+        deploy: "https://roger-cines.netlify.app/",
+        repository: "https://mks-test-sigma.vercel.app/",
+    },
 ]
