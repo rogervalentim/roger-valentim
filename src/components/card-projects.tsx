@@ -25,26 +25,26 @@ export function CardProjects({
 
   return (
     <motion.div
-      className="max-w-full w-72 rounded overflow-hidden border border-border mt-10"
+      className="max-w-full w-80 rounded overflow-hidden border border-border mt-10"
       variants={childVariant}
     >
       <img
         src={image}
         alt="imagem do projeto"
-        className="w-72 object-cover h-52"
+        className="w-80 object-cover h-52"
       />
 
-      <div className="px-6 py-4">
+      <div className="px-3 mt-2">
         <h2 className="font-bold text-xl mb-2">
           {name}
         </h2>
 
-        <p className="text-ronchi-50 pt-2">
+        <p className="text-ronchi-50 mt-1">
           {description}
         </p>
       </div>
 
-      <div className="px-6 pt-2 pb-2">
+      <div className="px-3 mt-2">
         <div className="flex gap-1">
           {technologies.map(Icon =>
             <Icon size={30} className="fill-ronchi-500" key={Icon.name} />
@@ -52,7 +52,7 @@ export function CardProjects({
         </div>
       </div>
 
-      <div className="flex items-center justify-between px-6 p-3">
+      <div className="flex items-center justify-between px-2 p-3">
         <a
           className="text-muted-foreground hover:text-primary"
           href={deploy}
