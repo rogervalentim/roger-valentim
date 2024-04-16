@@ -12,7 +12,7 @@ export function Projects() {
 
   return (
     <>
-      <h1 className="text-center font-bold text-3xl lg:text-4xl pt-16 underline">Projetos</h1>
+      <h1 className="text-center font-bold text-3xl lg:text-4xl pt-16 underline" id="Projetos">Projetos</h1>
       <motion.section className="flex justify-center"  
       initial="hidden"
        whileInView="visible"

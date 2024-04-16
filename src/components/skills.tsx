@@ -12,7 +12,7 @@ export function Skills() {
 
   return (
     <>
-    <h1 className="text-center font-bold text-3xl lg:text-4xl underline mt-10">Tecnologias</h1>
+    <h1 className="text-center font-bold text-3xl lg:text-4xl underline  pt-16" id="Tecnologias">Tecnologias</h1>
     <section className="flex justify-around">
      <motion.div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5  gap-4 mt-6" 
        initial="hidden"

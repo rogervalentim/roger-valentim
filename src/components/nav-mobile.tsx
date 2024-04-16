@@ -3,7 +3,11 @@ import { Button } from "./ui/button";
 import { ArrowDownToLine } from "lucide-react";
 import { motion } from "framer-motion";
 
-export function NavMobile() {
+interface NavMobileProps {
+  closeMenu: () => void;
+}
+
+export function NavMobile({ closeMenu }: NavMobileProps) {
   return (
     <motion.div
       className="z-auto absolute border-b border-border/40 flex flex-col w-full h-screen bg-popover"
@@ -13,12 +17,14 @@ export function NavMobile() {
     >
       <ul className="flex flex-col items-center w-full ">
         {navLinks.map(item =>
-          <li
+          <a
+            href={`#${item.link}`}
             className="w-full border-b border-collapse p-4 px-10 text-muted-foreground hover:text-white font-semibold text-lg cursor-pointer"
             key={item.id}
+            onClick={closeMenu}
           >
             {item.link}
-          </li>
+          </a>
         )}
       </ul>
 

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export function About() {
   return (
     <>
-    <h1 className="text-center font-bold text-3xl lg:text-4xl pt-16 underline underline-offset-1">Sobre mim</h1>
+    <h1 className="text-center font-bold text-3xl lg:text-4xl pt-16 underline underline-offset-1" id="Sobre">Sobre mim</h1>
     <section className="block lg:flex lg:justify-around lg:items-center">
 
       <figure className="flex justify-center pt-4 lg:flex-col lg:max-w-lg">

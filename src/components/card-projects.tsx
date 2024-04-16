@@ -52,7 +52,7 @@ export function CardProjects({
         </div>
       </div>
 
-      <div className="flex items-center justify-between px-6 pt-2 ">
+      <div className="flex items-center justify-between px-6 p-3">
         <a
           className="text-muted-foreground hover:text-primary"
           href={deploy}

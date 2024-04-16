@@ -11,7 +11,10 @@ import { motion } from "framer-motion";
 
 export function Home() {
   return (
-    <section className="lg:flex lg:items-center lg:justify-around pt-14 relative">
+    <section
+      className="lg:flex lg:items-center lg:justify-around pt-14 relative"
+      id="Inicio"
+    >
       <motion.div
         className="flex justify-center items-center flex-col lg:justify-start py-5"
         initial="hidden"
