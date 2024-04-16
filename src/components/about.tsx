@@ -23,11 +23,12 @@ export function About() {
            hidden: { opacity: 0, x: 50 },
            visible: { opacity: 1, x: 0 },
          }}>
-      <p className="leading-normal text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-        quisquam nihil quod velit,<br/> repellendus amet officiis tempore<br/> voluptatum
-        delectus dolores non quibusdam pariatur nemo magnam<br/> voluptatem neque
-        corrupti molestiae recusandae?
+      <p className="px-6 lg:px-0 leading-normal text-muted-foreground">
+      Com uma sólida compreensão das tecnologias web modernas e um olhar atento para o design, me dedico a construir interfaces limpas, responsivas e acessíveis.<br/> 
+      Acredito que um bom design é mais do que apenas aparência;
+      é sobre criar uma interação intuitiva e eficiente entre o usuário e a aplicação.
+      Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente e contribuir para projetos inovadores.
+      Se você está procurando um desenvolvedor que possa transformar suas ideias em realidade e agregar valor ao seu projeto, vamos conversar!
       </p>
       </motion.div>
       <Button type="button" className="font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700">
