@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { Menu, X } from "lucide-react";
 import { FaCode } from "react-icons/fa";
-import { navLinks } from "../constants/index";
+import { navLinks } from "../../constants/index";
 import { NavMobile } from "./nav-mobile";
 import { motion } from "framer-motion";
 

@@ -1,4 +1,4 @@
-import { skills } from "../constants";
+import { skills } from "../../constants";
 import { CardSkills } from "./card-skills";
 import { motion } from "framer-motion";
 

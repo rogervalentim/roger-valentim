@@ -1,12 +1,12 @@
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
-import { Button } from "./ui/button";
-import avatar from "../assets/avatar-programming.jpg";
+import { Button } from "../ui/button";
+import avatar from "../../assets/avatar-programming.jpg";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger
-} from "./ui/tooltip";
+} from "../ui/tooltip";
 import { motion } from "framer-motion";
 
 export function Home() {

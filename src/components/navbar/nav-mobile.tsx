@@ -1,8 +1,8 @@
 import { navLinks } from "@/constants";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { ArrowDownToLine } from "lucide-react";
 import { motion } from "framer-motion";
-import curriculum from "../assets/CV-ROGER-VALENTIM-DESENVOLVEDOR-FRONT-END.pdf";
+import curriculum from "../../assets/CV-ROGER-VALENTIM-DESENVOLVEDOR-FRONT-END.pdf";
 
 interface NavMobileProps {
   closeMenu: () => void;
