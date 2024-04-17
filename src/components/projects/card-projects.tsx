@@ -7,7 +7,7 @@ interface CardProjectsProps {
   technologies: IconType[];
   description: string;
   deploy: string;
-  repository: string;
+  repository: string | undefined;
 }
 
 export function CardProjects({
@@ -25,13 +25,13 @@ export function CardProjects({
 
   return (
     <motion.div
-      className="max-w-full w-80 rounded overflow-hidden border border-border mt-10"
+      className="max-w-full  rounded overflow-hidden border border-border mt-10"
       variants={childVariant}
     >
       <img
         src={image}
         alt="imagem do projeto"
-        className="w-80 object-cover h-52"
+        className="w-full object-cover h-52"
       />
 
       <div className="px-3 mt-2">
@@ -52,7 +52,7 @@ export function CardProjects({
         </div>
       </div>
 
-      <div className="flex items-center justify-between px-2 p-3">
+      <div className="flex items-center justify-between px-3 p-3">
         <a
           className="text-muted-foreground hover:text-primary"
           href={deploy}

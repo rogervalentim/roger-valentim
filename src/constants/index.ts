@@ -80,7 +80,7 @@ export const projectsaData = [
         technologies: [images.FaReact, images.BiLogoTailwindCss, images.BiLogoTypescript, images.FaGithub],
         image: images.rogerCine,
         deploy: "https://roger-cines.netlify.app/",
-        repository: "https://github.com/rogervalentim/movies",
+        repository: "https://github.com/rogervalentim/movies"
     },
     {
         id: 2,
@@ -88,7 +88,16 @@ export const projectsaData = [
         description: "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado.",
         technologies: [images.SiNextdotjs, images.SiStyledcomponents, images.BiLogoTypescript, images.SiJest, images.FaGithub],
         image: images.mksSistemas,
-        deploy: "https://roger-cines.netlify.app/",
-        repository: "https://mks-test-sigma.vercel.app/",
+        deploy: "https://mks-test-sigma.vercel.app/",
+        respository: "https://github.com/rogervalentim/mks-test"
     },
+    {
+        id: 3,
+        name: "carHub",
+        description: "Carhub: Uma plataforma revolucionária que oferece uma experiência de usuário excepcionalmente intuitiva. Aqui, os entusiastas de automóveis podem mergulhar em um vasto universo de opções de veículos, desde clássicos vintage até os mais modernos carros elétricos.",
+        technologies: [images.SiNextdotjs, images.BiLogoTailwindCss, images.FaGithub],
+        image: images.carHub,
+        deploy: "https://cars-lime-iota.vercel.app/",
+        repository: "https://github.com/rogervalentim/cars"
+    }
 ]

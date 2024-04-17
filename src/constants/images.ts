@@ -4,6 +4,7 @@ import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 import { SiNextdotjs, SiJest, SiStyledcomponents } from "react-icons/si";
 import rogerCine from "../assets/roger-cine-new.jpg";
 import mksSistemas from "../assets/mks-sistemas.jpg";
+import carHub from "../assets/carhub.jpg";
 
 export const images = {
     FaHtml5,
@@ -18,5 +19,6 @@ export const images = {
     FaGitAlt,
     rogerCine,
     mksSistemas,
-    SiStyledcomponents
+    SiStyledcomponents,
+    carHub
 }
