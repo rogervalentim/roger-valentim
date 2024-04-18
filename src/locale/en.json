@@ -1,0 +1,30 @@
+{
+    "translation": {
+        "header": ["Home", "About", "Technologies", "Projects"],
+        "cv": "Download CV",
+        "home": "Hello I'm  front end developer",
+        "subtitle": "Passionate about technologies and innovations.",
+        "about-me": "About me",
+        "about": "Passionate Front-End Developer with hands-on experience creating interactive and responsive user interfaces. Specialized in React and TypeScript, with the ability to build reusable and efficient components. Proficient in using Tailwind CSS for first-class utilitarian design, ensuring a consistent and modern aesthetic. Experience with Shadcn UI for clean and accessible interface design, and Framer Motion to add fluid and natural animations, enriching the user experience. Committed to writing clean code and implementing web development best practices.",
+        "linkedin": "see my LinkedIn",
+        "github": "see my GitHub",
+        "whatsapp": "contact me via whatsApp",
+        "technologies": "Technologies",
+        "projects": "Projects",
+        "projectDescriptions": [{
+            "id": 1,
+            "description": "Roger Cine is an interactive portal designed to facilitate the discovery of films, series and information about actors. With an intuitive interface and advanced search capabilities, users can easily find the entertainment content they love."
+        },
+        {
+            "id": 2,
+            "description": "Mks Sistemas is a technical project that demonstrates the implementation of a modern, interactive shopping cart. Using current best practices and technologies, the site offers an optimized user experience and a simplified purchase flow."
+        },
+        {
+            "id": 3,
+            "description": "Carhub: A revolutionary platform that offers an exceptionally intuitive user experience. Here, car enthusiasts can delve into a vast universe of vehicle options, from vintage classics to the latest electric cars."
+        }
+    ],
+        "project": "Project",
+        "repository": "Repository"
+    }
+}

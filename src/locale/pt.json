@@ -1,0 +1,30 @@
+{
+    "translation": {
+       "header": ["Inicio", "Sobre", "Tecnologias", "Projetos"],
+       "cv": "Baixar CV",
+       "home": "Olá eu sou desenvolvedor front end",
+       "subtitle": "Apaixonado por tecnologias e inovações.",
+       "about-me": "Sobre mim",
+       "about": "Desenvolvedor Front-End Apaixonado com experiência prática na criação de interfaces de usuário interativas e responsivas. Especializado em React e TypeScript, com habilidade para construir componentes reutilizáveis e eficientes. Proficiente no uso de Tailwind CSS para design utilitário de primeira classe, garantindo uma estética consistente e moderna. Experiência com Shadcn UI para um design de interface limpo e acessível, e Framer Motion para adicionar animações fluidas e naturais, enriquecendo a experiência do usuário. Comprometido com a escrita de código limpo e a implementação de melhores práticas de desenvolvimento web.",
+       "linkedin": "Veja o meu LinkedIn",
+       "github": "Veja o meu GitHub",
+       "whatsapp": "Entre em contato pelo whatsApp",
+       "technologies": "Tecnologias",
+       "projects": "Projetos",
+       "projectDescriptions": [{
+        "id": 1,
+        "description": "O Roger Cine é um portal interativo projetado para facilitar a descoberta de filmes, séries e informações sobre atores. Com uma interface intuitiva e recursos de busca avançados, os usuários podem encontrar facilmente o conteúdo de entretenimento que amam."
+    },
+    {
+        "id": 2,
+        "description": "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado."
+    },
+    {
+        "id": 3,
+        "description": "Carhub: Uma plataforma revolucionária que oferece uma experiência de usuário excepcionalmente intuitiva. Aqui, os entusiastas de automóveis podem mergulhar em um vasto universo de opções de veículos, desde clássicos vintage até os mais modernos carros elétricos."
+    }
+],
+       "project": "Projeto",
+       "repository": "Repositório"
+    }
+}
