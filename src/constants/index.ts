@@ -72,11 +72,11 @@ export const skills = [
     },
 ]
 
-export const projectsaData = [
+export const projectsData = [
     {
         id: 1,
         name: "Roger cine",
-        description: " O Roger Cine é um portal interativo projetado para facilitar a descoberta de filmes, séries e informações sobre atores. Com uma interface intuitiva e recursos de busca avançados, os usuários podem encontrar facilmente o conteúdo de entretenimento que amam.",
+        description: "O Roger Cine é um portal interativo projetado para facilitar a descoberta de filmes, séries e informações sobre atores. Com uma interface intuitiva e recursos de busca avançados, os usuários podem encontrar facilmente o conteúdo de entretenimento que amam.",
         technologies: [images.FaReact, images.BiLogoTailwindCss, images.BiLogoTypescript, images.FaGithub],
         image: images.rogerCine,
         deploy: "https://roger-cines.netlify.app/",
@@ -89,7 +89,7 @@ export const projectsaData = [
         technologies: [images.SiNextdotjs, images.SiStyledcomponents, images.BiLogoTypescript, images.SiJest, images.FaGithub],
         image: images.mksSistemas,
         deploy: "https://mks-test-sigma.vercel.app/",
-        respository: "https://github.com/rogervalentim/mks-test"
+        repository: "https://github.com/rogervalentim/mks-test"
     },
     {
         id: 3,
