@@ -8,8 +8,11 @@ import {
   TooltipTrigger
 } from "../ui/tooltip";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function Home() {
+  const { t } = useTranslation();
+
   return (
     <section
       className="lg:flex lg:items-center lg:justify-around pt-14 relative"
@@ -26,12 +29,12 @@ export function Home() {
           visible: { opacity: 1, x: 0 }
         }}
       >
-        <h1 className="text-4xl text-center font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-          Olá eu sou <br /> desenvolvedor <br />front end
+        <h1 className="text-4xl text-center w-96 font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+          {t("home")}
         </h1>
 
         <p className="text-lg text-muted-foreground pt-4">
-          {`//`} Apaixonado por tecnologias e inovações.
+          {`//`} {t("subtitle")}
         </p>
 
         <div className="flex gap-1 pt-4">
@@ -53,7 +56,9 @@ export function Home() {
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>Veja o meu LinkedIn</p>
+                  <p>
+                    {t("linkedin")}
+                  </p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
@@ -76,7 +81,9 @@ export function Home() {
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>Veja o meu github</p>
+                  <p>
+                    {t("github")}
+                  </p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
@@ -99,7 +106,9 @@ export function Home() {
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>Entre em contato pelo whatsApp</p>
+                  <p>
+                    {" "}{t("whatsapp")}
+                  </p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>

@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import { skills } from "../../constants";
 import { CardSkills } from "./card-skills";
 import { motion } from "framer-motion";
 
 export function Skills() {
+  const { t } = useTranslation();
+
   const container = {
     hidden: {},
     visible: {
@@ -12,7 +15,7 @@ export function Skills() {
 
   return (
     <>
-    <h1 className="text-center font-bold text-3xl lg:text-4xl underline  pt-16" id="Tecnologias">Tecnologias</h1>
+    <h1 className="text-center font-bold text-3xl lg:text-4xl underline  pt-16" id="Tecnologias">{t("technologies")}</h1>
     <section className="flex justify-around">
      <motion.div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5  gap-4 mt-6" 
        initial="hidden"

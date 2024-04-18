@@ -1,4 +1,4 @@
-import { projectsaData } from "@/constants";
+import { projectsData } from "@/constants";
 import {
   Carousel,
   CarouselContent,
@@ -9,11 +9,26 @@ import {
 import { CardProjects } from "./card-projects";
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
+import { useTranslation } from "react-i18next";
 
 export function CarouselProjects() {
+  const { t } = useTranslation();
+
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
+
+  const translationData = t("projectDescriptions", { returnObjects: true });
+
+  const getTranslatedDescription = (projectId: number) => {
+    if (!translationData || !Array.isArray(translationData)) {
+      console.error("Translation data is not in the expected format.");
+      return "";
+    }
+
+    const project = translationData.find(item => item.id === projectId);
+    return project ? project.description : "";
+  };
 
   return (
     <Carousel
@@ -23,12 +38,12 @@ export function CarouselProjects() {
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
-        {projectsaData.map(item =>
+        {projectsData.map(item =>
           <CarouselItem>
             <CardProjects
               key={item.id}
               name={item.name}
-              description={item.description}
+              description={getTranslatedDescription(item.id)}
               image={item.image}
               technologies={item.technologies}
               deploy={item.deploy}

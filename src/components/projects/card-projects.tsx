@@ -1,5 +1,6 @@
 import { IconType } from "react-icons";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface CardProjectsProps {
   name: string;
@@ -7,7 +8,7 @@ interface CardProjectsProps {
   technologies: IconType[];
   description: string;
   deploy: string;
-  repository: string | undefined;
+  repository: string;
 }
 
 export function CardProjects({
@@ -18,6 +19,8 @@ export function CardProjects({
   deploy,
   repository
 }: CardProjectsProps) {
+  const { t } = useTranslation();
+
   const childVariant = {
     hidden: { opacity: 0, scale: 0.9 },
     visible: { opacity: 1, scale: 1 }
@@ -39,7 +42,7 @@ export function CardProjects({
           {name}
         </h2>
 
-        <p className="text-ronchi-50 mt-1">
+        <p className="text-muted-foreground mt-1">
           {description}
         </p>
       </div>
@@ -58,14 +61,14 @@ export function CardProjects({
           href={deploy}
           target="_blank"
         >
-          Projeto
+          {t("project")}
         </a>
         <a
           className="text-muted-foreground hover:text-primary"
           href={repository}
           target="_blank"
         >
-          Repositório
+          {t("repository")}
         </a>
       </div>
     </motion.div>

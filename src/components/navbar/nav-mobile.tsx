@@ -3,12 +3,28 @@ import { Button } from "../ui/button";
 import { ArrowDownToLine } from "lucide-react";
 import { motion } from "framer-motion";
 import curriculum from "../../assets/CV-ROGER-VALENTIM-DESENVOLVEDOR-FRONT-END.pdf";
+import { useTranslation } from "react-i18next";
 
 interface NavMobileProps {
   closeMenu: () => void;
 }
 
+interface NavLink {
+  id: number;
+  link: string;
+  translatedLink: string;
+}
+
 export function NavMobile({ closeMenu }: NavMobileProps) {
+  const { t } = useTranslation();
+
+  const headerLinks: string[] = t("header", { returnObjects: true });
+
+  const translatedLinks: NavLink[] = navLinks.map((item, index) => ({
+    ...item,
+    translatedLink: headerLinks[index]
+  }));
+
   return (
     <motion.div
       className="z-auto absolute border-b border-border/40 flex flex-col w-full h-screen bg-popover"
@@ -17,13 +33,13 @@ export function NavMobile({ closeMenu }: NavMobileProps) {
       transition={{ duration: 0.5, delay: 0.1 }}
     >
       <ul className="flex flex-col items-center w-full">
-        {navLinks.map(item =>
+        {translatedLinks.map(item =>
           <li
             className="w-full border-b border-collapse p-4 px-10 text-muted-foreground hover:text-white font-semibold text-lg cursor-pointer"
             key={item.id}
           >
             <a href={`#${item.link}`} onClick={closeMenu}>
-              {item.link}
+              {item.translatedLink}
             </a>
           </li>
         )}
@@ -35,7 +51,7 @@ export function NavMobile({ closeMenu }: NavMobileProps) {
             type="button"
             className="w-64 font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700"
           >
-            Baixar CV
+            {t("cv")}
             <ArrowDownToLine className="text-ronchi-950" />
           </Button>
         </a>
