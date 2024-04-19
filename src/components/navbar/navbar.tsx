@@ -71,7 +71,7 @@ export function Navbar() {
           </div>
         </div>
 
-        <div className="flex items-center h-5 space-x-4 lg:hidden">
+        <div className="flex items-center h-8 space-x-4 lg:hidden">
           <div className="lg:hidden">
             <SelectLanguage />
           </div>

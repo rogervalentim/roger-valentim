@@ -39,9 +39,8 @@ export function CarouselProjects() {
     >
       <CarouselContent>
         {projectsData.map(item =>
-          <CarouselItem>
+          <CarouselItem key={item.id}>
             <CardProjects
-              key={item.id}
               name={item.name}
               description={getTranslatedDescription(item.id)}
               image={item.image}
