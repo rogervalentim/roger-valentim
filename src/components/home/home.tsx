@@ -29,7 +29,7 @@ export function Home() {
           visible: { opacity: 1, x: 0 }
         }}
       >
-        <h1 className="text-4xl text-center w-96 font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+        <h1 className="text-4xl text-center w-72 font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
           {t("home")}
         </h1>
 

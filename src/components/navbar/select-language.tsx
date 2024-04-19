@@ -30,7 +30,7 @@ export function SelectLanguage() {
           />
         </SelectValue>
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent className="mt-4">
         <SelectItem value="pt">
           <img
             className="w-10 h-10"
