@@ -33,7 +33,7 @@ export function Home() {
           {t("home")}
         </h1>
 
-        <p className="text-lg text-muted-foreground pt-4">
+        <p className="text-lg text-center text-muted-foreground pt-4">
           {`//`} {t("subtitle")}
         </p>
 
