@@ -117,7 +117,7 @@ export function Home() {
       </motion.div>
       <figure className="flex justify-center items-center pt-4 lg:flex-col lg:max-w-lg">
         <img
-          className="h-80 w-72 max-w-sm lg:h-auto lg:max-w-full rounded-lg"
+          className="h-80 max-w-sm lg:h-auto lg:max-w-full w-full rounded-lg"
           src={avatar}
           alt="avatar"
         />

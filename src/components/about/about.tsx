@@ -14,7 +14,7 @@ export function About() {
     <section className="block lg:flex lg:justify-around lg:items-center">
 
       <figure className="flex justify-center pt-4 lg:flex-col lg:max-w-lg">
-        <img className="h-80 w-72 mx-w-sm rounded-lg" src={computer} alt="computador" />
+        <img className="h-80 w-72 mx-w-sm  lg:w-full rounded-lg" src={computer} alt="computador" />
       </figure>
 
       <div className="pt-4 flex flex-col items-center justify-center">
