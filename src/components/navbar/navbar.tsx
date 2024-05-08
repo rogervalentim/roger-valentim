@@ -1,13 +1,13 @@
-import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { Button } from "../ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu,  X } from "lucide-react";
 import { FaCode } from "react-icons/fa";
 import { navLinks } from "../../constants/index";
 import { NavMobile } from "./nav-mobile";
 import { motion } from "framer-motion";
 import { Separator } from "../ui/separator";
-import { SelectLanguage } from "./select-language";
+import { useTranslation } from "react-i18next";
+import { NavMenubar } from "./nav-menubar";
 
 interface NavLink {
   id: number;
@@ -42,10 +42,10 @@ export function Navbar() {
       exit={{ opacity: 0, y: -50 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="px-8 lg:px-16 h-14 flex justify-between border-b border-border/40 items-center flex-row">
-        <div className="flex items-center justify-center gap-2 cursor-pointer bg-gradient-to-t w-24 h-8 from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700 rounded-md">
-          <FaCode className="size-5 fill-ronchi-950" />
-          <a href="#Inicio" className="text-ronchi-950 font-bold text-lg">
+      <div className="lg:px-16 h-14 flex justify-around border-b border-border/40 items-center flex-row">
+        <div className="flex items-center justify-center gap-2 cursor-pointer bg-gradient-to-t w-24 h-8 from-royal-blue-500 to-royal-blue-600 hover:bg-gradient-to-t hover:from-royal-blue-600 hover:to-royal-blue-700 rounded-md">
+          <FaCode className="size-5 fill-royal-blue-950" />
+          <a href="#Inicio" className="text-royal-blue-950 font-bold text-lg">
             Roger
           </a>
         </div>
@@ -67,13 +67,13 @@ export function Navbar() {
           <Separator className="hidden lg:flex" orientation="vertical" />
 
           <div className="hidden lg:flex">
-            <SelectLanguage />
+            <NavMenubar />
           </div>
         </div>
 
         <div className="flex items-center h-8 space-x-4 lg:hidden">
           <div className="lg:hidden">
-            <SelectLanguage />
+            <NavMenubar />
           </div>
           <Separator className="lg:hidden" orientation="vertical" />
           {!openMenu

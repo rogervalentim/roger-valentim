@@ -49,10 +49,10 @@ export function NavMobile({ closeMenu }: NavMobileProps) {
         <a href={curriculum} target="_blank">
           <Button
             type="button"
-            className="w-64 font-bold flex gap-2 mt-4 text-ronchi-950 bg-gradient-to-t from-ronchi-500 to-ronchi-600 hover:bg-gradient-to-t hover:from-ronchi-600 hover:to-ronchi-700"
+            className="w-64 font-bold flex gap-2 mt-4 text-royal-blue-950 bg-gradient-to-t from-royal-blue-500 to-royal-blue-600 hover:bg-gradient-to-t hover:from-royal-blue-600 hover:to-royal-blue-700"
           >
             {t("cv")}
-            <ArrowDownToLine className="text-ronchi-950" />
+            <ArrowDownToLine className="text-royal-blue-950" />
           </Button>
         </a>
       </div>
