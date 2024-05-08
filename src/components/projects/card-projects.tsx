@@ -50,7 +50,7 @@ export function CardProjects({
       <div className="px-3 mt-2">
         <div className="flex gap-1">
           {technologies.map(Icon =>
-            <Icon size={30} className="fill-ronchi-500" key={Icon.name} />
+            <Icon size={30} className="fill-royal-blue-500" key={Icon.name} />
           )}
         </div>
       </div>
