@@ -52,7 +52,7 @@ export function Home() {
                     variant="link"
                     aria-label="Veja o meu LinkedIn"
                   >
-                    <FaLinkedin className="h-8 w-8  fill-ronchi-500 hover:fill-ronchi-600" />
+                    <FaLinkedin className="h-8 w-8  fill-royal-blue-500 hover:fill-royal-blue-600" />
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>
@@ -77,7 +77,7 @@ export function Home() {
                     variant="link"
                     aria-label="veja o meu github"
                   >
-                    <FaGithub className="h-8 w-8  fill-ronchi-500 hover:fill-ronchi-600" />
+                    <FaGithub className="h-8 w-8  fill-royal-blue-500 hover:fill-royal-blue-600" />
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>
@@ -102,7 +102,7 @@ export function Home() {
                     variant="link"
                     aria-label="Entre em contato pelo whatsApp"
                   >
-                    <FaWhatsapp className="h-8 w-8  fill-ronchi-500 hover:fill-ronchi-600" />
+                    <FaWhatsapp className="h-8 w-8  fill-royal-blue-500 hover:fill-royal-blue-600" />
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent>
@@ -117,7 +117,7 @@ export function Home() {
       </motion.div>
       <figure className="flex justify-center items-center pt-4 lg:flex-col lg:max-w-lg">
         <img
-          className="h-80 max-w-sm lg:h-auto lg:max-w-full w-full rounded-lg"
+          className="h-80 max-w-sm w-72 lg:h-auto lg:w-full  rounded-lg"
           src={avatar}
           alt="avatar"
         />
