@@ -18,7 +18,7 @@ export function CardSkills({ name, icon: Icon }: SkillsProps) {
       variants={childVariant}
     >
       <Icon className="fill-royal-blue-500 size-20 hover:fill-royal-blue-600 cursor-pointer" />
-      <p className="text-royal-blue-50">
+      <p className="text-primary">
         {name}
       </p>
     </motion.div>

@@ -56,7 +56,7 @@ export function Navbar() {
               <li key={item.id}>
                 <a
                   href={`#${item.link}`}
-                  className="text-muted-foreground font-semibold text-lg hover:text-white cursor-pointer"
+                  className="text-primary font-semibold text-lg hover:text-primry cursor-pointer"
                 >
                   {item.translatedLink}
                 </a>

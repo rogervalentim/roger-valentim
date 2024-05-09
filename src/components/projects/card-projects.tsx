@@ -42,7 +42,7 @@ export function CardProjects({
           {name}
         </h2>
 
-        <p className="text-muted-foreground mt-1">
+        <p className="text-primary mt-1">
           {description}
         </p>
       </div>

@@ -27,7 +27,7 @@ export function About() {
            hidden: { opacity: 0, x: 50 },
            visible: { opacity: 1, x: 0 },
          }}>
-      <p className="px-6 lg:px-0 leading-normal text-muted-foreground">{t("about")}</p>
+      <p className="px-6 lg:px-0 leading-normal text-primary">{t("about")}</p>
       </motion.div>
     <a href={curriculum} target="_blank">
       <Button type="button" className="font-bold flex gap-2 mt-4 text-royal-blue-950 bg-gradient-to-t from-royal-blue-500 to-royal-blue-600 hover:bg-gradient-to-t hover:from-royal-blue-600 hover:to-royal-blue-700">

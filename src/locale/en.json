@@ -25,6 +25,12 @@
         }
     ],
         "project": "Project",
-        "repository": "Repository"
+        "repository": "Repository",
+        "theme": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "language": "Language",
+        "portuguese": "Portuguese",
+        "english": "English"
     }
 }

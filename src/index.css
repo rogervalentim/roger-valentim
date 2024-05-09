@@ -54,11 +54,9 @@
       @apply border-border;
     }
     body {
-      @apply dark bg-background text-foreground antialiased;
+      @apply bg-background text-foreground antialiased;
     }
   }
-
-  
 
   body {
     --sb-track-color: #232E33;

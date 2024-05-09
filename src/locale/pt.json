@@ -25,6 +25,12 @@
     }
 ],
        "project": "Projeto",
-       "repository": "Repositório"
+       "repository": "Repositório",
+       "theme": "Tema",
+       "light": "Claro",
+       "dark": "Escuro",
+       "language": "Idioma",
+       "portuguese": "Portugûes",
+       "english": "Inglês"
     }
 }
