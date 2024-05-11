@@ -21,6 +21,7 @@ export const useLanguage = () => {
 
   return {
     currentLanguage,
+    setCurrentLanguage,
     handleChangeLanguage
   };
 };

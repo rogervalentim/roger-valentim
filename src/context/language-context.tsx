@@ -1,22 +1,22 @@
-import React, { Dispatch, SetStateAction, createContext } from "react";
-
+import React, { createContext } from "react";
 import { useLanguage } from "./use-language";
-import { TFunction } from "i18next";
+import { Dispatch, SetStateAction } from "react";
 
 type Language = {
-  t: TFunction<"translation", undefined>;
   currentLanguage: string;
-  setCurrentLanguage: Dispatch<SetStateAction<string>>;
-  handleChangeLanguage: () => void;
+  handleChangeLanguage: (newLanguage: string) => void;
 };
 
-export const LanguageContext = createContext<Language>({} as Language);
+type LanguageContextType = Language & {
+  setCurrentLanguage: Dispatch<SetStateAction<string>>;
+};
+
+export const LanguageContext = createContext<LanguageContextType>({} as LanguageContextType);
 
 function LanguageProvider({
   children
 }: React.PropsWithChildren): React.JSX.Element {
   const {
-    t,
     currentLanguage,
     setCurrentLanguage,
     handleChangeLanguage
@@ -25,7 +25,6 @@ function LanguageProvider({
   return (
     <LanguageContext.Provider
       value={{
-        t,
         currentLanguage,
         setCurrentLanguage,
         handleChangeLanguage
