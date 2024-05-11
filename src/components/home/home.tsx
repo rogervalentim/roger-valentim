@@ -1,14 +1,7 @@
-import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
-import { Button } from "../ui/button";
 import avatar from "../../assets/avatar-programming.jpg";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger
-} from "../ui/tooltip";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { SocialMedia } from "./social-media";
 
 export function Home() {
   const { t } = useTranslation();
@@ -37,83 +30,10 @@ export function Home() {
           {`//`} {t("subtitle")}
         </p>
 
-        <div className="flex gap-1 pt-4">
-          <a
-            href="https://www.linkedin.com/in/rogervalentim33/"
-            target="_blank"
-            aria-label="Veja o meu LinkedIn"
-          >
-            <TooltipProvider>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Button
-                    type="button"
-                    size="icon"
-                    variant="link"
-                    aria-label="Veja o meu LinkedIn"
-                  >
-                    <FaLinkedin className="h-8 w-8  fill-royal-blue-500 hover:fill-royal-blue-600" />
-                  </Button>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>
-                    {t("linkedin")}
-                  </p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
-          </a>
-          <a
-            href="https://www.github.com/rogervalentim/"
-            target="_blank"
-            aria-label="veja o meu github"
-          >
-            <TooltipProvider>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Button
-                    type="button"
-                    size="icon"
-                    variant="link"
-                    aria-label="veja o meu github"
-                  >
-                    <FaGithub className="h-8 w-8  fill-royal-blue-500 hover:fill-royal-blue-600" />
-                  </Button>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>
-                    {t("github")}
-                  </p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
-          </a>
-          <a
-            href="https://api.whatsapp.com/send/?phone=11970506367&text&type=phone_number&app_absent=0"
-            target="_blank"
-            aria-label="Entre em contato pelo whatsApp"
-          >
-            <TooltipProvider>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Button
-                    type="button"
-                    size="icon"
-                    variant="link"
-                    aria-label="Entre em contato pelo whatsApp"
-                  >
-                    <FaWhatsapp className="h-8 w-8  fill-royal-blue-500 hover:fill-royal-blue-600" />
-                  </Button>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>
-                    {" "}{t("whatsapp")}
-                  </p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
-          </a>
-        </div>
+      <div className="mt-4">
+      <SocialMedia />
+      </div>
+      
       </motion.div>
       <figure className="flex justify-center items-center pt-4 lg:flex-col lg:max-w-lg">
         <img

@@ -35,7 +35,7 @@ export function NavMobile({ closeMenu }: NavMobileProps) {
       <ul className="flex flex-col items-center w-full">
         {translatedLinks.map(item =>
           <li
-            className="w-full border-b border-collapse p-4 px-10 text-muted-foreground hover:text-white font-semibold text-lg cursor-pointer"
+            className="w-full border-b border-collapse p-4 px-10 text-primary font-semibold text-lg cursor-pointer"
             key={item.id}
           >
             <a href={`#${item.link}`} onClick={closeMenu}>
@@ -54,30 +54,6 @@ export function NavMobile({ closeMenu }: NavMobileProps) {
             {t("cv")}
             <ArrowDownToLine className="text-royal-blue-950" />
           </Button>
-        </a>
-      </div>
-
-      <div className="flex justify-center gap-5 mt-14">
-        <a
-          className="text-muted-foreground text-lg font-bold hover:text-white"
-          href="https://www.linkedin.com/in/rogervalentim33"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-        <a
-          className="text-muted-foreground text-lg font-bold hover:text-white"
-          href="https://www.github.com/rogervalentim"
-          target="_blank"
-        >
-          GitHub
-        </a>
-        <a
-          className="text-muted-foreground text-lg font-bold hover:text-white"
-          href="https://api.whatsapp.com/send/?phone=11970506367&text&type=phone_number&app_absent=0"
-          target="_blank"
-        >
-          WhatsApp
         </a>
       </div>
     </motion.div>

@@ -56,7 +56,7 @@ export function Navbar() {
               <li key={item.id}>
                 <a
                   href={`#${item.link}`}
-                  className="text-primary font-semibold text-lg hover:text-primry cursor-pointer"
+                  className="text-primary dark:text-muted-foreground font-semibold text-lg dark:hover:text-primary cursor-pointer"
                 >
                   {item.translatedLink}
                 </a>
@@ -66,7 +66,7 @@ export function Navbar() {
 
           <Separator className="hidden lg:flex" orientation="vertical" />
 
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex border-none">
             <NavMenubar />
           </div>
         </div>
@@ -80,7 +80,7 @@ export function Navbar() {
             ? <Button
                 type="button"
                 className="flex items-center lg:hidden"
-                variant="link"
+                variant="outline"
                 size="icon"
                 onClick={toggleOpenMenu}
                 aria-label="Abrir menu"
@@ -90,7 +90,7 @@ export function Navbar() {
             : <Button
                 type="button"
                 className="flex items-center lg:hidden"
-                variant="link"
+                variant="outline"
                 size="icon"
                 onClick={closeMenu}
                 aria-label="Fechar menu"
