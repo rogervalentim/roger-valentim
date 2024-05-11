@@ -1,0 +1,39 @@
+{
+    "translation": {
+      "header": ["Inicio", "Sobre mí", "Tecnologías", "Proyectos"],
+      "cv": "Descargar CV",
+      "home": "Hola, soy desarrollador front-end",
+      "subtitle": "Apasionado por las tecnologías y las innovaciones.",
+      "about-me": "Sobre mí",
+      "about": "Desarrollador Front-End apasionado con experiencia práctica en la creación de interfaces de usuario interactivas y receptivas. Especializado en React y TypeScript, con la capacidad de construir componentes reutilizables y eficientes. Competente en el uso de Tailwind CSS para un diseño utilitario de primera clase, lo que garantiza una estética coherente y moderna. Experiencia con Shadcn UI para un diseño de interfaz limpio y accesible, y Framer Motion para agregar animaciones fluidas y naturales, enriqueciendo la experiencia del usuario. Comprometido con la escritura de código limpio y la implementación de las mejores prácticas de desarrollo web.",
+      "linkedin": "Ver mi LinkedIn",
+      "github": "Ver mi GitHub",
+      "whatsapp": "Contactame por WhatsApp",
+      "technologies": "Tecnologías",
+      "projects": "Proyectos",
+      "projectDescriptions": [
+        {
+          "id": 1,
+          "description": "Roger Cine es un portal interactivo diseñado para facilitar el descubrimiento de películas, series e información sobre actores. Con una interfaz intuitiva y funciones de búsqueda avanzadas, los usuarios pueden encontrar fácilmente el contenido de entretenimiento que les gusta."
+        },
+        {
+          "id": 2,
+          "description": "Mks Sistemas es un proyecto técnico que demuestra la implementación de un carrito de compras interactivo y moderno. Utilizando las mejores prácticas y tecnologías actuales, el sitio ofrece una experiencia de usuario optimizada y un flujo de compra simplificado."
+        },
+        {
+          "id": 3,
+          "description": "Carhub: una plataforma revolucionaria que ofrece una experiencia de usuario excepcionalmente intuitiva. Aquí, los entusiastas de los automóviles pueden sumergirse en un vasto universo de opciones de vehículos, desde clásicos antiguos hasta los coches eléctricos más modernos."
+        }
+      ],
+      "project": "Proyecto",
+      "repository": "Repositorio",
+      "theme": "Tema",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema",
+      "language": "Idioma",
+      "portuguese": "Portugués",
+      "english": "Inglés",
+      "spanish": "Español" 
+    }
+  } 

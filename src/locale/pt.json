@@ -29,8 +29,10 @@
        "theme": "Tema",
        "light": "Claro",
        "dark": "Escuro",
+       "system": "Sistema",
        "language": "Idioma",
-       "portuguese": "Portugûes",
-       "english": "Inglês"
+       "portuguese": "Português",
+       "english": "Inglês",
+       "spanish": "Espanhol"
     }
 }

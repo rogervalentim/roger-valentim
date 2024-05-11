@@ -14,7 +14,21 @@ export const useLanguage = () => {
   }, []);
 
   const handleChangeLanguage = () => {
-    const newLanguage = currentLanguage === "pt" ? "en" : "pt";
+    let newLanguage;
+    switch (currentLanguage) {
+      case "pt":
+        newLanguage = "en" && "es";
+        break;
+      case "en":
+        newLanguage = "es" && "pt"; // Adicionando o idioma espanhol
+        break;
+      case "es":
+        newLanguage = "pt" && "en"; // Voltando para o português
+        break;
+      default:
+        newLanguage = "en";
+        break;
+    }
     changeLanguage(newLanguage);
     setCurrentLanguage(newLanguage);
     localStorage.setItem("language", newLanguage);

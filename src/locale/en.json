@@ -29,8 +29,10 @@
         "theme": "Theme",
         "light": "Light",
         "dark": "Dark",
+        "system": "System",
         "language": "Language",
         "portuguese": "Portuguese",
-        "english": "English"
+        "english": "English",
+        "spanish": "Spanish"
     }
 }
