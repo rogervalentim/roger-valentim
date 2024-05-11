@@ -1,9 +1,9 @@
 import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger } from "../ui/menubar";
 import brazilFlag from "../../assets/brazil-flag.svg";
 import usaFlag from "../../assets/usa-flag.svg";
-import spainFlag from "../../assets/flag-of-spain.svg"; // Adicione a bandeira da Espanha
+import spainFlag from "../../assets/flag-of-spain.svg"; 
 import { useTranslation } from "react-i18next";
-import { useLanguageContext } from "@/context/use-language-context";
+import { useLanguage } from "@/context/use-language";
 import { Settings, SunMoon } from "lucide-react";
 import { SunIcon } from '@radix-ui/react-icons'
 import { useTheme } from "@/context/useTheme";
@@ -12,7 +12,7 @@ import { Button } from "../ui/button";
 
 export function NavMenubar() {
   const { t, i18n } = useTranslation();
-  const { handleChangeLanguage } = useLanguageContext();
+  const { handleChangeLanguage } = useLanguage();
   const { theme, setTheme } = useTheme();
   const [selectedTheme, setSelectedTheme] = useState(theme);
 
@@ -61,27 +61,27 @@ export function NavMenubar() {
             </MenubarSubTrigger>
             <MenubarSubContent>
               {i18n.language === "pt" ? 
-                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage()}>
+                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage("en")}>
                   <img src={usaFlag} alt="bandeira dos Estados Unidos" className="w-5 h-5" /> {t("english")}
                 </MenubarItem>
                 : i18n.language === "es" ?
-                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage()}>
+                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage("pt")}>
                   <img src={brazilFlag} alt="bandeira do Brasil" className="w-5 h-5" /> 
                   {t("portuguese")}
                 </MenubarItem>
                 :
-                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage()}>
+                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage("pt")}>
                   <img src={brazilFlag} alt="bandeira do Brasil" className="w-5 h-5" /> 
                   {t("portuguese")}
                 </MenubarItem> 
               }
               {i18n.language === "es" ? 
-                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage()}>
+                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage("es")}>
                   <img src={usaFlag} alt="bandeira dos Estados Unidos" className="w-5 h-5" /> 
                   {t("english")}
                 </MenubarItem>
                 :
-                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage()}>
+                <MenubarItem className="flex items-center gap-2" onClick={() => handleChangeLanguage("es")}>
                   <img src={spainFlag} alt="bandeira da Espanha" className="w-5 h-5" /> 
                   {t("spanish")}
                 </MenubarItem> 
