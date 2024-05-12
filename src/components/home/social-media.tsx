@@ -1,9 +1,11 @@
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { Button } from "../ui/button";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../ui/tooltip";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export function SocialMedia() {
+  const { t } = useTranslation();
+
     return (
         <div className="flex gap-1">
         <a
