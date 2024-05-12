@@ -1,0 +1,41 @@
+{
+    "translation": {
+      "header": ["Accueil", "À propos", "Technologies", "Projets"],
+      "cv": "Télécharger CV",
+      "home": "Bonjour, je suis développeur front-end",
+      "subtitle": "Passionné par les technologies et les innovations.",
+      "about-me": "À propos de moi",
+      "about": "Développeur front-end passionné avec une expérience pratique dans la création d'interfaces utilisateur interactives et réactives. Spécialisé en React et TypeScript, avec la capacité de construire des composants réutilisables et efficaces. Compétent dans l'utilisation de Tailwind CSS pour un design utilitaire de première classe, garantissant une esthétique cohérente et moderne. Expérience avec Shadcn UI pour un design d'interface propre et accessible, et Framer Motion pour ajouter des animations fluides et naturelles, enrichissant l'expérience utilisateur. Engagé à écrire du code propre et à mettre en œuvre les meilleures pratiques de développement Web.",
+      "linkedin": "Voir mon LinkedIn",
+      "github": "Voir mon GitHub",
+      "whatsapp": "Contactez-moi par WhatsApp",
+      "technologies": "Technologies",
+      "projects": "Projets",
+      "projectDescriptions": [
+        {
+          "id": 1,
+          "description": "Roger Cine est un portail interactif conçu pour faciliter la découverte de films, séries et d'informations sur les acteurs. Avec une interface intuitive et des fonctionnalités de recherche avancées, les utilisateurs peuvent facilement trouver le contenu de divertissement qu'ils aiment."
+        },
+        {
+          "id": 2,
+          "description": "Mks Sistemas est un projet technique qui démontre la mise en œuvre d'un panier d'achat interactif et moderne. En utilisant les meilleures pratiques et technologies actuelles, le site offre une expérience utilisateur optimisée et un flux d'achat simplifié."
+        },
+        {
+          "id": 3,
+          "description": "Carhub: Une plateforme révolutionnaire qui offre une expérience utilisateur exceptionnellement intuitive. Ici, les passionnés d'automobile peuvent plonger dans un vaste univers d'options de véhicules, des classiques vintage aux voitures électriques les plus modernes."
+        }
+      ],
+      "project": "Projet",
+      "repository": "Référentiel",
+      "theme": "Thème",
+      "light": "Clair",
+      "dark": "Foncé",
+      "system": "Système",
+      "language": "Langue",
+      "portuguese": "Portugais",
+      "english": "Anglais",
+      "spanish": "Espagnol",
+      "french": "Français"
+    }
+  }
+  

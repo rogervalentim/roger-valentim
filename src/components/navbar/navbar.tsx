@@ -43,7 +43,7 @@ export function Navbar() {
       transition={{ duration: 0.5 }}
     >
       <div className="lg:px-16 h-14 flex justify-around border-b border-border/40 items-center flex-row">
-        <div className="flex items-center justify-center gap-2 cursor-pointer bg-gradient-to-t w-24 h-8 from-royal-blue-500 to-royal-blue-600 hover:bg-gradient-to-t hover:from-royal-blue-600 hover:to-royal-blue-700 rounded-md">
+        <div className="flex items-center justify-center gap-2 cursor-pointer bg-gradient-to-t w-24 h-8 from-royal-blue-500 to-royal-blue-600 hover:bg-gradient-to-t hover:from-royal-blue-600 hover:to-royal-blue-700 rounded-md animate-pulse">
           <FaCode className="size-5 fill-royal-blue-950" />
           <a href="#Inicio" className="text-royal-blue-950 font-bold text-lg">
             Roger
@@ -85,7 +85,7 @@ export function Navbar() {
                 onClick={toggleOpenMenu}
                 aria-label="Abrir menu"
               >
-                <Menu className="text-muted-foreground fill-text-muted-foreground" />
+                <Menu className="text-primary" />
               </Button>
             : <Button
                 type="button"
@@ -95,7 +95,7 @@ export function Navbar() {
                 onClick={closeMenu}
                 aria-label="Fechar menu"
               >
-                <X className="text-muted-foreground fill-text-muted-foreground" />
+                <X className="text-primary" />
               </Button>}
         </div>
       </div>

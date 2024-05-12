@@ -35,7 +35,7 @@ export function NavMobile({ closeMenu }: NavMobileProps) {
       <ul className="flex flex-col items-center w-full">
         {translatedLinks.map(item =>
           <li
-            className="w-full border-b border-collapse p-4 px-10 text-primary font-semibold text-lg cursor-pointer"
+            className="w-full border-b border-collapse p-4 px-10 text-primary  dark:text-muted-foreground  dark:hover:text-primary font-semibold text-lg cursor-pointer"
             key={item.id}
           >
             <a href={`#${item.link}`} onClick={closeMenu}>

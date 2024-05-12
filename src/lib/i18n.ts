@@ -4,6 +4,7 @@ import { initReactI18next } from "react-i18next";
 import enTranslations from "../locale/en.json";
 import ptTranslations from "../locale/pt.json";
 import esTranslations from "../locale/es.json";
+import frTranslations from "../locale/fr.json";
 
 i18n.use(initReactI18next).init({
     resources: {
@@ -15,6 +16,9 @@ i18n.use(initReactI18next).init({
         },
         es: {
             ...esTranslations
+        },
+        fr: {
+            ...frTranslations
         }
     },
     lng: "pt",
