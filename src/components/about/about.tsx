@@ -2,7 +2,7 @@ import { ArrowDownToLine } from "lucide-react";
 import computer from "../../assets/computer.jpg";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
-import curriculum from "../../assets/CV-ROGER-VALENTIM-DESENVOLVEDOR-FRONT-END.pdf";
+import curriculum from "../../assets/CV-ROGER-VALENTIM-FRONT-END.pdf";
 import { useTranslation } from "react-i18next";
 
 export function About() {
