@@ -5,6 +5,11 @@ import { SiNextdotjs, SiJest, SiStyledcomponents } from "react-icons/si";
 import rogerCine from "../assets/roger-cine-new.jpg";
 import mksSistemas from "../assets/mks-sistemas.jpg";
 import carHub from "../assets/carhub.jpg";
+import certificate1 from "../assets/certificado-fundamentos.png";
+import certificate2 from "../assets/certificado-dh.jpg";
+import certificate3 from "../assets/certificado-react.png";
+import certificate4 from "../assets/certificado-freecodecamp.png";
+import certificate5 from "../assets/certificado-imersao-alura.png";
 
 export const images = {
     FaHtml5,
@@ -20,5 +25,10 @@ export const images = {
     rogerCine,
     mksSistemas,
     SiStyledcomponents,
-    carHub
+    carHub,
+    certificate1,
+    certificate2,
+    certificate3,
+    certificate4,
+    certificate5,
 }

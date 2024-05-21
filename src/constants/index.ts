@@ -16,6 +16,10 @@ export const navLinks = [
     {
         id: 4,
         link: "Projetos"
+    },
+    {
+        id: 5,
+        link: "Certificados"
     }
 ]
 
@@ -100,4 +104,27 @@ export const projectsData = [
         deploy: "https://cars-lime-iota.vercel.app/",
         repository: "https://github.com/rogervalentim/cars"
     }
+]
+
+export const certificatesData = [
+    {
+        id: 1,
+        image: images.certificate1
+    },
+    {
+        id: 2,
+        image: images.certificate2
+    },
+    {
+        id: 3,
+        image: images.certificate3
+    },
+    {
+        id: 4,
+        image: images.certificate4
+    },
+    {
+        id: 5,
+        image: images.certificate5
+    },
 ]

@@ -1,6 +1,6 @@
 {
     "translation": {
-      "header": ["Accueil", "À propos", "Technologies", "Projets"],
+      "header": ["Accueil", "À propos", "Technologies", "Projets", "Certificats"],
       "cv": "Télécharger CV",
       "home": "Bonjour, je suis développeur front-end",
       "subtitle": "Passionné par les technologies et les innovations.",
@@ -26,6 +26,7 @@
         }
       ],
       "project": "Projet",
+      "certificate": "Certificats",
       "repository": "Référentiel",
       "theme": "Thème",
       "light": "Clair",

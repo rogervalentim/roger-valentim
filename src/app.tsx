@@ -1,4 +1,5 @@
 import { Navbar, Home, About, Skills, Projects, Footer } from "./components";
+import { Certificates } from "./components/certificates/certificates";
 import { ThemeProvider } from "./context/theme-provider";
 
 export function App() {
@@ -10,6 +11,7 @@ export function App() {
   <About />
   <Skills />
   <Projects />
+  <Certificates />
   <Footer />
   </ThemeProvider>
   </>

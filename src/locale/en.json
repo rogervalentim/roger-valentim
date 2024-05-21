@@ -1,6 +1,6 @@
 {
     "translation": {
-        "header": ["Home", "About", "Technologies", "Projects"],
+        "header": ["Home", "About", "Technologies", "Projects", "Certificates"],
         "cv": "Download CV",
         "home": "Hello I'm  front end developer",
         "subtitle": "Passionate about technologies and innovations.",
@@ -24,7 +24,8 @@
             "description": "Carhub: A revolutionary platform that offers an exceptionally intuitive user experience. Here, car enthusiasts can delve into a vast universe of vehicle options, from vintage classics to the latest electric cars."
         }
     ],
-        "project": "Project",
+       "project": "Project",
+       "certificate": "Certificates",
         "repository": "Repository",
         "theme": "Theme",
         "light": "Light",

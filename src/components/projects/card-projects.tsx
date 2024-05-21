@@ -28,7 +28,7 @@ export function CardProjects({
 
   return (
     <motion.div
-      className="max-w-full  rounded overflow-hidden border border-border mt-10"
+      className="max-w-full   rounded overflow-hidden border border-border mt-10"
       variants={childVariant}
     >
       <img
