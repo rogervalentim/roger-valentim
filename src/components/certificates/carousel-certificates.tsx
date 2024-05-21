@@ -9,26 +9,12 @@ import {
 import { CardCertificates } from "./card-certificates";
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
-import { useTranslation } from "react-i18next";
 
 export function CarouselCertificates() {
-  const { t } = useTranslation();
 
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
-
-  const translationData = t("certificateDescriptions", { returnObjects: true });
-
-  const getTranslatedDescription = (certificateId: number) => {
-    if (!translationData || !Array.isArray(translationData)) {
-      console.error("Translation data is not in the expected format.");
-      return "";
-    }
-
-    const certificate = translationData.find(item => item.id === certificateId);
-    return certificate ? certificate.title : "";
-  };
 
   return (
     <Carousel
@@ -41,7 +27,6 @@ export function CarouselCertificates() {
         {certificatesData.map(item =>
           <CarouselItem key={item.id}>
             <CardCertificates
-              title={getTranslatedDescription(item.id)}
               image={item.image}
             />
           </CarouselItem>
