@@ -103,6 +103,15 @@ export const projectsData = [
         image: images.carHub,
         deploy: "https://cars-lime-iota.vercel.app/",
         repository: "https://github.com/rogervalentim/cars"
+    },
+    {
+        id: 4,
+        name: "gym",
+        description: "Esta é uma landing page simples e moderna para uma academia fictícia chamada Evogym evolutionary fitness. A página foi criada com o objetivo de atrair novos membros, apresentar as facilidades e serviços oferecidos pela academia, e promover um estilo de vida saudável e ativo.",
+        technologies: [images.FaReact, images.BiLogoTailwindCss, images.FaGithub],
+        image: images.gym,
+        deploy: "https://gym-app-mocha.vercel.app/",
+        repository: "https://github.com/rogervalentim/gym_app"
     }
 ]
 

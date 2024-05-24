@@ -23,6 +23,10 @@
         {
           "id": 3,
           "description": "Carhub: Une plateforme révolutionnaire qui offre une expérience utilisateur exceptionnellement intuitive. Ici, les passionnés d'automobile peuvent plonger dans un vaste univers d'options de véhicules, des classiques vintage aux voitures électriques les plus modernes."
+        },
+        {
+          "id": 4,
+          "description": "Ceci est une page de destination simple et moderne pour une salle de sport fictive appelée Fitness Evolution. La page a été créée dans le but d'attirer de nouveaux membres, de présenter les installations et les services offerts par la salle de sport, et de promouvoir un mode de vie sain et actif."
         }
       ],
       "project": "Projet",

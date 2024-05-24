@@ -5,6 +5,7 @@ import { SiNextdotjs, SiJest, SiStyledcomponents } from "react-icons/si";
 import rogerCine from "../assets/roger-cine-new.jpg";
 import mksSistemas from "../assets/mks-sistemas.jpg";
 import carHub from "../assets/carhub.jpg";
+import gym from "../assets/gym.jpg";
 import certificate1 from "../assets/certificado-fundamentos.png";
 import certificate2 from "../assets/certificado-dh.jpg";
 import certificate3 from "../assets/certificado-react.png";
@@ -22,10 +23,11 @@ export const images = {
     SiJest,
     FaGithub,
     FaGitAlt,
+    SiStyledcomponents,
     rogerCine,
     mksSistemas,
-    SiStyledcomponents,
     carHub,
+    gym,
     certificate1,
     certificate2,
     certificate3,
