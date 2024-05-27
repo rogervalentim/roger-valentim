@@ -18,14 +18,18 @@
         },
         {
           "id": 2,
-          "description": "Mks Sistemas est un projet technique qui démontre la mise en œuvre d'un panier d'achat interactif et moderne. En utilisant les meilleures pratiques et technologies actuelles, le site offre une expérience utilisateur optimisée et un flux d'achat simplifié."
+          "description": "J'ai développé un système complet pour la gestion des opérations de restaurant, offrant une suite de fonctionnalités intuitives pour simplifier vos processus quotidiens. Inspiré du design moderne et convivial d'iFood, ce système vous permet de gérer efficacement votre restaurant du bout des doigts."
         },
         {
           "id": 3,
-          "description": "Carhub: Une plateforme révolutionnaire qui offre une expérience utilisateur exceptionnellement intuitive. Ici, les passionnés d'automobile peuvent plonger dans un vaste univers d'options de véhicules, des classiques vintage aux voitures électriques les plus modernes."
+          "description": "Mks Sistemas est un projet technique qui démontre la mise en œuvre d'un panier d'achat interactif et moderne. En utilisant les meilleures pratiques et technologies actuelles, le site offre une expérience utilisateur optimisée et un flux d'achat simplifié."
         },
         {
           "id": 4,
+          "description": "Carhub: Une plateforme révolutionnaire qui offre une expérience utilisateur exceptionnellement intuitive. Ici, les passionnés d'automobile peuvent plonger dans un vaste univers d'options de véhicules, des classiques vintage aux voitures électriques les plus modernes."
+        },
+        {
+          "id": 5,
           "description": "Ceci est une page de destination simple et moderne pour une salle de sport fictive appelée Fitness Evolution. La page a été créée dans le but d'attirer de nouveaux membres, de présenter les installations et les services offerts par la salle de sport, et de promouvoir un mode de vie sain et actif."
         }
       ],

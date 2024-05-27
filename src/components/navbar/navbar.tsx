@@ -95,7 +95,7 @@ export function Navbar() {
                 onClick={closeMenu}
                 aria-label="Fechar menu"
               >
-                <X className="text-primary" />
+                <X className="text-primary"  />
               </Button>}
         </div>
       </div>

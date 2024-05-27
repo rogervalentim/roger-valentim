@@ -18,14 +18,18 @@
         },
         {
           "id": 2,
-          "description": "Mks Sistemas es un proyecto técnico que demuestra la implementación de un carrito de compras interactivo y moderno. Utilizando las mejores prácticas y tecnologías actuales, el sitio ofrece una experiencia de usuario optimizada y un flujo de compra simplificado."
+          "description": "He desarrollado un sistema para gestionar las operaciones de un restaurante, que incluye funcionalidades para listar restaurantes, productos, gestionar pedidos, realizar pedidos y finalizar pedidos. El sistema también debe permitir la búsqueda de restaurantes y tener un diseño inspirado en ifood."
         },
         {
           "id": 3,
-          "description": "Carhub: una plataforma revolucionaria que ofrece una experiencia de usuario excepcionalmente intuitiva. Aquí, los entusiastas de los automóviles pueden sumergirse en un vasto universo de opciones de vehículos, desde clásicos antiguos hasta los coches eléctricos más modernos."
+          "description": "Mks Sistemas es un proyecto técnico que demuestra la implementación de un carrito de compras interactivo y moderno. Utilizando las mejores prácticas y tecnologías actuales, el sitio ofrece una experiencia de usuario optimizada y un flujo de compra simplificado."
         },
         {
           "id": 4,
+          "description": "Carhub: una plataforma revolucionaria que ofrece una experiencia de usuario excepcionalmente intuitiva. Aquí, los entusiastas de los automóviles pueden sumergirse en un vasto universo de opciones de vehículos, desde clásicos antiguos hasta los coches eléctricos más modernos."
+        },
+        {
+          "id": 5,
           "description": "Esta es una página de destino simple y moderna para un gimnasio ficticio llamado Fitness Evolution. La página fue creada con el objetivo de atraer nuevos miembros, mostrar las instalaciones y servicios que ofrece el gimnasio, y promover un estilo de vida saludable y activo."
         }
       ],

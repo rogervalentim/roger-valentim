@@ -88,6 +88,15 @@ export const projectsData = [
     },
     {
         id: 2,
+        name: "Ifood",
+        description: "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado.",
+        technologies: [images.SiNextdotjs, images.BiLogoTailwindCss, images.BiLogoTypescript, images.SiPrisma, images.FaGithub],
+        image: images.ifood,
+        deploy: "https://ifood-fsw.vercel.app/",
+        repository: "https://github.com/rogervalentim/ifood-fsw"
+    },
+    {
+        id: 3,
         name: "Mks Sistemas",
         description: "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado.",
         technologies: [images.SiNextdotjs, images.SiStyledcomponents, images.BiLogoTypescript, images.SiJest, images.FaGithub],
@@ -96,7 +105,7 @@ export const projectsData = [
         repository: "https://github.com/rogervalentim/mks-test"
     },
     {
-        id: 3,
+        id: 4,
         name: "carHub",
         description: "Carhub: Uma plataforma revolucionária que oferece uma experiência de usuário excepcionalmente intuitiva. Aqui, os entusiastas de automóveis podem mergulhar em um vasto universo de opções de veículos, desde clássicos vintage até os mais modernos carros elétricos.",
         technologies: [images.SiNextdotjs, images.BiLogoTailwindCss, images.FaGithub],
@@ -105,7 +114,7 @@ export const projectsData = [
         repository: "https://github.com/rogervalentim/cars"
     },
     {
-        id: 4,
+        id: 5,
         name: "gym",
         description: "Esta é uma landing page simples e moderna para uma academia fictícia chamada Evogym evolutionary fitness. A página foi criada com o objetivo de atrair novos membros, apresentar as facilidades e serviços oferecidos pela academia, e promover um estilo de vida saudável e ativo.",
         technologies: [images.FaReact, images.BiLogoTailwindCss, images.FaGithub],

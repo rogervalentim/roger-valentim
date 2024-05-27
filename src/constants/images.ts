@@ -1,11 +1,12 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaGithub, FaGitAlt } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
-import { SiNextdotjs, SiJest, SiStyledcomponents } from "react-icons/si";
+import { SiNextdotjs, SiJest, SiStyledcomponents, SiPrisma } from "react-icons/si";
 import rogerCine from "../assets/roger-cine-new.jpg";
 import mksSistemas from "../assets/mks-sistemas.jpg";
 import carHub from "../assets/carhub.jpg";
 import gym from "../assets/gym.jpg";
+import ifood from "../assets/ifood-logo.svg";
 import certificate1 from "../assets/certificado-fundamentos.png";
 import certificate2 from "../assets/certificado-dh.jpg";
 import certificate3 from "../assets/certificado-react.png";
@@ -24,10 +25,12 @@ export const images = {
     FaGithub,
     FaGitAlt,
     SiStyledcomponents,
+    SiPrisma,
     rogerCine,
     mksSistemas,
     carHub,
     gym,
+    ifood,
     certificate1,
     certificate2,
     certificate3,
