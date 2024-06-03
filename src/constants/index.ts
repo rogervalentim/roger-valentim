@@ -102,7 +102,7 @@ export const projectsData = [
         technologies: [images.FaReact, images.BiLogoTailwindCss, images.BiLogoTypescript, images.SiReactquery, images.SiReacthookform, images.SiZod, images.FaGithub],
         image: images.auth,
         deploy: "https://auth-portal-taupe.vercel.app/",
-        repository: "https://github.com/rogervalentim/auh-potal"
+        repository: "https://github.com/rogervalentim/auth-portal"
     },
     {
         id: 4,
