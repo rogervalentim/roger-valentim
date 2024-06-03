@@ -28,13 +28,13 @@ export function CardProjects({
 
   return (
     <motion.div
-      className="max-w-full   rounded overflow-hidden border border-border mt-10"
-      variants={childVariant}
+    className="max-w-full  w-full rounded overflow-hidden border border-border mt-10"
+    variants={childVariant}
     >
       <img
         src={image}
         alt="imagem do projeto"
-        className="w-full object-cover h-52"
+        className="w-full h-52 lg:w-full lg:h-96"
       />
 
       <div className="px-3 mt-2">
