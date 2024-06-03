@@ -15,13 +15,13 @@ export function CardCertificates({
 
   return (
     <motion.div
-      className="max-w-full   rounded overflow-hidden border border-border mt-10"
+      className="max-w-full  w-full rounded overflow-hidden border border-border mt-10"
       variants={childVariant}
     >
       <img
         src={image}
         alt="imagem do certificado"
-        className="w-full object-cover h-52"
+        className="w-full h-52 lg:w-full lg:h-[400px]"
       />
      
     </motion.div>
