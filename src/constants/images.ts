@@ -1,17 +1,18 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaGithub, FaGitAlt } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
-import { SiNextdotjs, SiJest, SiStyledcomponents, SiPrisma } from "react-icons/si";
-import rogerCine from "../assets/roger-cine-new.jpg";
-import mksSistemas from "../assets/mks-sistemas.jpg";
-import carHub from "../assets/carhub.jpg";
-import gym from "../assets/gym.jpg";
-import ifood from "../assets/ifood-logo.svg";
-import certificate1 from "../assets/certificado-fundamentos.png";
-import certificate2 from "../assets/certificado-dh.jpg";
-import certificate3 from "../assets/certificado-react.png";
-import certificate4 from "../assets/certificado-freecodecamp.png";
-import certificate5 from "../assets/certificado-imersao-alura.png";
+import { SiNextdotjs, SiJest, SiStyledcomponents, SiPrisma, SiZod, SiReacthookform, SiReactquery  } from "react-icons/si";
+import rogerCine from "../assets/projects/roger-cine-new.jpg";
+import mksSistemas from "../assets/projects/mks-sistemas.jpg";
+import carHub from "../assets/projects/carhub.jpg";
+import gym from "../assets/projects/gym.jpg";
+import ifood from "../assets/projects/ifood-logo.svg";
+import auth from "../assets/projects/auth-portal.jpg";
+import certificate1 from "../assets/certificates/certificado-fundamentos.png";
+import certificate2 from "../assets/certificates/certificado-dh.jpg";
+import certificate3 from "../assets/certificates/certificado-react.png";
+import certificate4 from "../assets/certificates/certificado-freecodecamp.png";
+import certificate5 from "../assets/certificates/certificado-imersao-alura.png";
 
 export const images = {
     FaHtml5,
@@ -22,6 +23,9 @@ export const images = {
     FaReact,
     SiNextdotjs,
     SiJest,
+    SiZod,
+    SiReacthookform,
+    SiReactquery,
     FaGithub,
     FaGitAlt,
     SiStyledcomponents,
@@ -31,6 +35,7 @@ export const images = {
     carHub,
     gym,
     ifood,
+    auth,
     certificate1,
     certificate2,
     certificate3,

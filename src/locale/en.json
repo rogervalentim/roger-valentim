@@ -17,18 +17,22 @@
         },
         {
             "id": 2,
-            "description": "Sure, here is the text translated into English: I have developed a system to manage restaurant operations, including functionalities to list restaurants, products, manage orders, place orders, and finalize orders. The system should also allow searching for restaurants and have a design inspired by ifood."
+            "description": " I have developed a system to manage restaurant operations, including functionalities to list restaurants, products, manage orders, place orders, and finalize orders. The system should also allow searching for restaurants and have a design inspired by ifood."
         },
         {
             "id": 3,
-            "description": "Mks Sistemas is a technical project that demonstrates the implementation of a modern, interactive shopping cart. Using current best practices and technologies, the site offers an optimized user experience and a simplified purchase flow."
+            "description": "This project consists of a user authentication system with three main screens: Registration, Authentication, and Dashboard. The system communicates with an API to perform the necessary operations of registration, authentication, displaying users, and logging out."
         },
         {
             "id": 4,
-            "description": "Carhub: A revolutionary platform that offers an exceptionally intuitive user experience. Here, car enthusiasts can delve into a vast universe of vehicle options, from vintage classics to the latest electric cars."
+            "description": "Mks Sistemas is a technical project that demonstrates the implementation of a modern, interactive shopping cart. Using current best practices and technologies, the site offers an optimized user experience and a simplified purchase flow."
         },
         {
             "id": 5,
+            "description": "Carhub: A revolutionary platform that offers an exceptionally intuitive user experience. Here, car enthusiasts can delve into a vast universe of vehicle options, from vintage classics to the latest electric cars."
+        },
+        {
+            "id": 6,
             "description": "This is a simple and modern landing page for a fictional gym called Fitness Evolution. The page was created with the goal of attracting new members, showcasing the facilities and services offered by the gym, and promoting a healthy and active lifestyle. "
         }
     ],

@@ -21,14 +21,18 @@
     },
     {
         "id": 3,
-        "description": "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado."
+        "description": "Este projeto consiste em um sistema de autenticação de usuários com três telas principais: Registro, Autenticação e Dashboard. O sistema se comunica com uma API para realizar as operações necessárias de registro, autenticação, exibição de usuários e logout."
     },
     {
         "id": 4,
-        "description": "Carhub: Uma plataforma revolucionária que oferece uma experiência de usuário excepcionalmente intuitiva. Aqui, os entusiastas de automóveis podem mergulhar em um vasto universo de opções de veículos, desde clássicos vintage até os mais modernos carros elétricos."
+        "description": "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado."
     },
     {
         "id": 5,
+        "description": "Carhub: Uma plataforma revolucionária que oferece uma experiência de usuário excepcionalmente intuitiva. Aqui, os entusiastas de automóveis podem mergulhar em um vasto universo de opções de veículos, desde clássicos vintage até os mais modernos carros elétricos."
+    },
+    {
+        "id": 6,
         "description": "Esta é uma landing page simples e moderna para uma academia fictícia chamada Evogym evolutionary fitness. A página foi criada com o objetivo de atrair novos membros, apresentar as facilidades e serviços oferecidos pela academia, e promover um estilo de vida saudável e ativo."
     }
 ],
