@@ -34,7 +34,7 @@ export function CardProjects({
       <img
         src={image}
         alt="imagem do projeto"
-        className="w-full h-52 lg:w-full lg:h-96"
+        className="w-full h-52 lg:w-full lg:h-[350px]"
       />
 
       <div className="px-3 mt-2">

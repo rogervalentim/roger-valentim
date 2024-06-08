@@ -22,18 +22,19 @@ export function Home() {
           visible: { opacity: 1, x: 0 }
         }}
       >
-        <h1 className="text-4xl text-center w-72 lg:w-96 font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-          {t("home")}
-        </h1>
+        <div className="w-72 lg:w-96">
+          <h1 className="text-4xl text-center  font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+            {t("home")}
+          </h1>
 
-        <p className="text-lg text-center text-muted-foreground pt-4">
-          {`//`} {t("subtitle")}
-        </p>
+          <p className="text-lg text-center text-muted-foreground pt-4">
+            {`//`} {t("subtitle")}
+          </p>
+        </div>
 
-      <div className="mt-4">
-      <SocialMedia />
-      </div>
-      
+        <div className="mt-4">
+          <SocialMedia />
+        </div>
       </motion.div>
       <figure className="flex justify-center items-center pt-4 lg:flex-col lg:max-w-lg">
         <img
