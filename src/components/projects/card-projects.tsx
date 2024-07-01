@@ -28,30 +28,26 @@ export function CardProjects({
 
   return (
     <motion.div
-    className="max-w-full  w-full rounded overflow-hidden border border-border mt-10"
-    variants={childVariant}
+      className="max-w-full  w-full rounded overflow-hidden border border-border mt-10"
+      variants={childVariant}
     >
       <img
         src={image}
         alt="imagem do projeto"
-        className="w-full h-52 lg:w-full lg:h-[350px]"
+        className="w-full h-52 lg:w-full lg:h-[400px] object-cover"
       />
 
       <div className="px-3 mt-2">
-        <h2 className="font-bold text-xl mb-2">
-          {name}
-        </h2>
+        <h2 className="font-bold text-xl mb-2">{name}</h2>
 
-        <p className="text-primary mt-1">
-          {description}
-        </p>
+        <p className="text-primary mt-1">{description}</p>
       </div>
 
       <div className="px-3 mt-2">
         <div className="flex gap-1">
-          {technologies.map(Icon =>
+          {technologies.map((Icon) => (
             <Icon size={30} className="fill-royal-blue-500" key={Icon.name} />
-          )}
+          ))}
         </div>
       </div>
 

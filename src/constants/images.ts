@@ -6,7 +6,7 @@ import rogerCine from "../assets/projects/roger-cine-new.jpg";
 import mksSistemas from "../assets/projects/mks-sistemas.jpg";
 import carHub from "../assets/projects/carhub.jpg";
 import gym from "../assets/projects/gym.jpg";
-import ifood from "../assets/projects/ifood-logo.svg";
+import ifood from "../assets/projects/ifood.png";
 import auth from "../assets/projects/auth-portal.jpg";
 import certificate1 from "../assets/certificates/certificado-fundamentos.png";
 import certificate2 from "../assets/certificates/certificado-dh.jpg";
