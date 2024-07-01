@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Roger Valentim - Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Deploy
 
-Currently, two official plugins are available:
+<a href="https://rogervalentim.vercel.app/">Clique aqui para ver o projeto</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Descrição
 
-## Expanding the ESLint configuration
+Bem-vindo ao meu portfólio!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este espaço é dedicado a apresentar os projetos e habilidades que venho desenvolvendo ao longo do tempo. Estou continuamente atualizando esta coleção para incluir novos trabalhos e aprimorar os existentes, refletindo meu crescimento e aprendizado constante na área. Aqui, você encontrará uma variedade de projetos que demonstram minha paixão, criatividade e competência em desenvolvimento front end.
 
-- Configure the top-level `parserOptions` property like this:
+## 🔧 Instalação
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Instalação com npm
+
+```bash
+  git clone "https://github.com/rogervalentim/roger-valentim.git"
+  cd roger-valentim
+  npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🔌 Como Rodar
+
+```bash
+  npm run dev
+```
+
+## 📊 Tecnologias e libs utilizadas
+
+<ul>
+<li>React</li>
+<li>Context API</li>
+<li>Tailwind Css</li>
+<li>Shadcn UI</li>
+<li>Typescript</li>
+<li>I18n</li>
+<li>Lucide React</li>
+</ul>
+
+## 📸 Imagem do projeto
+
+<img src=".github/portfolio.png" alt="imagem do portfólio">
