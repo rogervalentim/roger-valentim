@@ -22,18 +22,22 @@
       },
       {
         "id": 3,
-        "description": "This project consists of a user authentication system with three main screens: Registration, Authentication, and Dashboard. The system communicates with an API to perform the necessary operations of registration, authentication, displaying users, and logging out."
+        "description": "The application offers a streamlined shopping experience with flexible payment options via Pix and credit card installments. Developed with React and integrated with Material-UI (MUI), it allows users to choose between immediate payment via Pix with a 3% discount or installments of up to 7 times on a credit card."
       },
       {
         "id": 4,
-        "description": "The Github Profile challenge from Dev Challenges presents an exciting opportunity to showcase your front-end development skills and integrate with the GitHub API. The task involves meticulously recreating the provided design and seamlessly integrating it with GitHub's API to fetch and display comprehensive user information."
+        "description": "This project consists of a user authentication system with three main screens: Registration, Authentication, and Dashboard. The system communicates with an API to perform the necessary operations of registration, authentication, displaying users, and logging out."
       },
       {
         "id": 5,
-        "description": "Mks Sistemas is a technical project that demonstrates the implementation of a modern, interactive shopping cart. Using current best practices and technologies, the site offers an optimized user experience and a simplified purchase flow."
+        "description": "The Github Profile challenge from Dev Challenges presents an exciting opportunity to showcase your front-end development skills and integrate with the GitHub API. The task involves meticulously recreating the provided design and seamlessly integrating it with GitHub's API to fetch and display comprehensive user information."
       },
       {
         "id": 6,
+        "description": "Mks Sistemas is a technical project that demonstrates the implementation of a modern, interactive shopping cart. Using current best practices and technologies, the site offers an optimized user experience and a simplified purchase flow."
+      },
+      {
+        "id": 7,
         "description": "This is a simple and modern landing page for a fictional gym called Fitness Evolution. The page was created with the goal of attracting new members, showcasing the facilities and services offered by the gym, and promoting a healthy and active lifestyle. "
       }
     ],

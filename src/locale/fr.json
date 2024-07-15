@@ -22,18 +22,22 @@
       },
       {
         "id": 3,
-        "description": "Ce projet consiste en un système d'authentification des utilisateurs avec trois écrans principaux : Inscription, Authentification et Tableau de bord. Le système communique avec une API pour effectuer les opérations nécessaires d'enregistrement, d'authentification, d'affichage des utilisateurs et de déconnexion."
+        "description": "L'application offre une expérience d'achat simplifiée avec des options de paiement flexibles via Pix et des paiements échelonnés par carte de crédit. Développée avec React et intégrée à Material-UI (MUI), elle permet aux utilisateurs de choisir entre un paiement immédiat via Pix avec une réduction de 3% ou des paiements échelonnés jusqu'à 7 fois par carte de crédit."
       },
       {
         "id": 4,
-        "description": "Le défi Profil Github de Dev Challenges offre une occasion passionnante de mettre en valeur vos compétences en développement front-end et de vous intégrer à l'API GitHub. La tâche consiste à recréer méticuleusement le design fourni et à l'intégrer de manière transparente à l'API GitHub pour rechercher et afficher des informations détaillées sur les utilisateurs."
+        "description": "Ce projet consiste en un système d'authentification des utilisateurs avec trois écrans principaux : Inscription, Authentification et Tableau de bord. Le système communique avec une API pour effectuer les opérations nécessaires d'enregistrement, d'authentification, d'affichage des utilisateurs et de déconnexion."
       },
       {
         "id": 5,
-        "description": "Mks Sistemas est un projet technique qui démontre la mise en œuvre d'un panier d'achat interactif et moderne. En utilisant les meilleures pratiques et technologies actuelles, le site offre une expérience utilisateur optimisée et un flux d'achat simplifié."
+        "description": "Le défi Profil Github de Dev Challenges offre une occasion passionnante de mettre en valeur vos compétences en développement front-end et de vous intégrer à l'API GitHub. La tâche consiste à recréer méticuleusement le design fourni et à l'intégrer de manière transparente à l'API GitHub pour rechercher et afficher des informations détaillées sur les utilisateurs."
       },
       {
         "id": 6,
+        "description": "Mks Sistemas est un projet technique qui démontre la mise en œuvre d'un panier d'achat interactif et moderne. En utilisant les meilleures pratiques et technologies actuelles, le site offre une expérience utilisateur optimisée et un flux d'achat simplifié."
+      },
+      {
+        "id": 7,
         "description": "Ceci est une page de destination simple et moderne pour une salle de sport fictive appelée Fitness Evolution. La page a été créée dans le but d'attirer de nouveaux membres, de présenter les installations et les services offerts par la salle de sport, et de promouvoir un mode de vie sain et actif."
       }
     ],

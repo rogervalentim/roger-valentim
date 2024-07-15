@@ -14,11 +14,13 @@ import {
   SiPrisma,
   SiZod,
   SiReacthookform,
-  SiReactquery
+  SiReactquery,
+  SiMui
 } from "react-icons/si";
 import rogerCine from "../assets/projects/roger-cine-new.jpg";
 import mksSistemas from "../assets/projects/mks-sistemas.jpg";
 import gym from "../assets/projects/gym.jpg";
+import woovi from "../assets/projects/woovi.svg";
 import ifood from "../assets/projects/ifood.png";
 import auth from "../assets/projects/auth-portal.jpg";
 import github from "../assets/projects/github-profile.png";
@@ -40,6 +42,7 @@ export const images = {
   SiZod,
   SiReacthookform,
   SiReactquery,
+  SiMui,
   FaGithub,
   FaGitAlt,
   SiStyledcomponents,
@@ -47,6 +50,7 @@ export const images = {
   rogerCine,
   mksSistemas,
   gym,
+  woovi,
   ifood,
   github,
   auth,

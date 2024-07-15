@@ -110,6 +110,22 @@ export const projectsData = [
   },
   {
     id: 3,
+    name: "Woovi challenge",
+    description:
+      "O aplicativo oferece uma experiência simplificada para compras, com opções flexíveis de pagamento via Pix e parcelamento no cartão de crédito. Desenvolvido com React e integrado com Material-UI (MUI), permite aos usuários escolher entre pagamento imediato via Pix com 3% de desconto ou parcelamento em até 7 vezes no cartão de crédito.",
+    technologies: [
+      images.FaReact,
+      images.BiLogoTypescript,
+      images.SiMui,
+      images.SiReacthookform,
+      images.FaGithub
+    ],
+    image: images.woovi,
+    deploy: "https://woovi-challenge-pied.vercel.app/",
+    repository: "https://github.com/rogervalentim/woovi-challenge.git"
+  },
+  {
+    id: 4,
     name: "Auth Portal",
     description:
       "Este projeto consiste em um sistema de autenticação de usuários com três telas principais: Registro, Autenticação e Dashboard. O sistema se comunica com uma API para realizar as operações necessárias de registro, autenticação, exibição de usuários e logout.",
@@ -127,7 +143,7 @@ export const projectsData = [
     repository: "https://github.com/rogervalentim/auth-portal"
   },
   {
-    id: 4,
+    id: 5,
     name: "Github Profile",
     description:
       "O desafio Github Profile do Dev Challenges consiste em recriar o design fornecido e integrar com a API do GitHub para buscar e exibir informações detalhadas de usuários do GitHub. O objetivo é replicar a interface com precisão e funcionalidade, mostrando dados como repositórios, seguidores, e outras informações do perfil do usuário.",
@@ -142,7 +158,7 @@ export const projectsData = [
     repository: "https://github.com/rogervalentim/github-profile"
   },
   {
-    id: 5,
+    id: 6,
     name: "Mks Sistemas",
     description:
       "O Mks Sistemas é um projeto técnico que demonstra a implementação de um carrinho de compras interativo e moderno. Utilizando as melhores práticas e tecnologias atuais, o site oferece uma experiência de usuário otimizada e um fluxo de compra simplificado.",
@@ -158,7 +174,7 @@ export const projectsData = [
     repository: "https://github.com/rogervalentim/mks-test"
   },
   {
-    id: 6,
+    id: 7,
     name: "gym",
     description:
       "Esta é uma landing page simples e moderna para uma academia fictícia chamada Evogym evolutionary fitness. A página foi criada com o objetivo de atrair novos membros, apresentar as facilidades e serviços oferecidos pela academia, e promover um estilo de vida saudável e ativo.",

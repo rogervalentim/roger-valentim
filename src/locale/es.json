@@ -28,18 +28,22 @@
       },
       {
         "id": 3,
-        "description": "Este proyecto consiste en un sistema de autenticación de usuarios con tres pantallas principales: Registro, Autenticación y Panel de Control. El sistema se comunica con una API para realizar las operaciones necesarias de registro, autenticación, visualización de usuarios y cierre de sesión."
+        "description": "La aplicación ofrece una experiencia de compra simplificada con opciones de pago flexibles a través de Pix y cuotas con tarjeta de crédito. Desarrollada con React e integrada con Material-UI (MUI), permite a los usuarios elegir entre el pago inmediato a través de Pix con un 3% de descuento o cuotas de hasta 7 veces en la tarjeta de crédito."
       },
       {
         "id": 4,
-        "description": "El desafío Perfil de Github de Dev Challenges presenta una emocionante oportunidad para mostrar sus habilidades de desarrollo front-end e integrarse con la API de GitHub. La tarea implica recrear meticulosamente el diseño proporcionado e integrarlo sin problemas con la API de GitHub para buscar y mostrar información detallada del usuario."
+        "description": "Este proyecto consiste en un sistema de autenticación de usuarios con tres pantallas principales: Registro, Autenticación y Panel de Control. El sistema se comunica con una API para realizar las operaciones necesarias de registro, autenticación, visualización de usuarios y cierre de sesión."
       },
       {
         "id": 5,
-        "description": "Mks Sistemas es un proyecto técnico que demuestra la implementación de un carrito de compras interactivo y moderno. Utilizando las mejores prácticas y tecnologías actuales, el sitio ofrece una experiencia de usuario optimizada y un flujo de compra simplificado."
+        "description": "El desafío Perfil de Github de Dev Challenges presenta una emocionante oportunidad para mostrar sus habilidades de desarrollo front-end e integrarse con la API de GitHub. La tarea implica recrear meticulosamente el diseño proporcionado e integrarlo sin problemas con la API de GitHub para buscar y mostrar información detallada del usuario."
       },
       {
         "id": 6,
+        "description": "Mks Sistemas es un proyecto técnico que demuestra la implementación de un carrito de compras interactivo y moderno. Utilizando las mejores prácticas y tecnologías actuales, el sitio ofrece una experiencia de usuario optimizada y un flujo de compra simplificado."
+      },
+      {
+        "id": 7,
         "description": "Esta es una página de destino simple y moderna para un gimnasio ficticio llamado Fitness Evolution. La página fue creada con el objetivo de atraer nuevos miembros, mostrar las instalaciones y servicios que ofrece el gimnasio, y promover un estilo de vida saludable y activo."
       }
     ],
