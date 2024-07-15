@@ -33,7 +33,7 @@ export function About() {
 
         <div className="pt-4 flex flex-col items-center justify-center">
           <motion.div
-            className="flex justify-center flex-col items-center max-w-sm lg:max-w-lg"
+            className="flex justify-center flex-col px-5 items-center max-w-sm lg:max-w-lg"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
