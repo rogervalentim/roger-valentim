@@ -205,5 +205,9 @@ export const certificatesData = [
   {
     id: 5,
     image: images.certificate5
+  },
+  {
+    id: 6,
+    image: images.certificate6
   }
 ];

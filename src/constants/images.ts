@@ -29,6 +29,7 @@ import certificate2 from "../assets/certificates/certificado-dh.jpg";
 import certificate3 from "../assets/certificates/certificado-react.png";
 import certificate4 from "../assets/certificates/certificado-freecodecamp.png";
 import certificate5 from "../assets/certificates/certificado-imersao-alura.png";
+import certificate6 from "../assets/certificates/certificado-react-native.jpg";
 
 export const images = {
   FaHtml5,
@@ -58,5 +59,6 @@ export const images = {
   certificate2,
   certificate3,
   certificate4,
-  certificate5
+  certificate5,
+  certificate6
 };
