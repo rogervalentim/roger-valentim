@@ -23,6 +23,7 @@ import gym from "../assets/projects/gym.jpg";
 import woovi from "../assets/projects/woovi.svg";
 import ifood from "../assets/projects/ifood.png";
 import auth from "../assets/projects/auth-portal.jpg";
+import world from "../assets/world.png";
 import github from "../assets/projects/github-profile.png";
 import certificate1 from "../assets/certificates/certificado-fundamentos.png";
 import certificate2 from "../assets/certificates/certificado-dh.jpg";
@@ -55,6 +56,7 @@ export const images = {
   ifood,
   github,
   auth,
+  world,
   certificate1,
   certificate2,
   certificate3,

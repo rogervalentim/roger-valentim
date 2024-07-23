@@ -45,6 +45,10 @@
       {
         "id": 7,
         "description": "Esta es una página de destino simple y moderna para un gimnasio ficticio llamado Fitness Evolution. La página fue creada con el objetivo de atraer nuevos miembros, mostrar las instalaciones y servicios que ofrece el gimnasio, y promover un estilo de vida saludable y activo."
+      },
+      {
+        "id": 8,
+        "description": "Esta aplicación web muestra información detallada sobre países de todo el mundo utilizando datos de la API de países REST. La aplicación se compone de varias secciones y componentes interactivos que permiten a los usuarios buscar, filtrar y ordenar información sobre países."
       }
     ],
     "project": "Proyecto",

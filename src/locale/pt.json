@@ -39,6 +39,10 @@
       {
         "id": 7,
         "description": "Esta é uma landing page simples e moderna para uma academia fictícia chamada Evogym evolutionary fitness. A página foi criada com o objetivo de atrair novos membros, apresentar as facilidades e serviços oferecidos pela academia, e promover um estilo de vida saudável e ativo."
+      },
+      {
+        "id": 8,
+        "description": "Este aplicativo da web exibe informações detalhadas sobre países ao redor do mundo usando dados da API REST Países. O aplicativo é composto por diversas seções e componentes interativos que permitem aos usuários pesquisar, filtrar e classificar informações sobre os países."
       }
     ],
     "project": "Projeto",

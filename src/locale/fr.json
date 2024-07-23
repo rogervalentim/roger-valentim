@@ -39,6 +39,10 @@
       {
         "id": 7,
         "description": "Ceci est une page de destination simple et moderne pour une salle de sport fictive appelée Fitness Evolution. La page a été créée dans le but d'attirer de nouveaux membres, de présenter les installations et les services offerts par la salle de sport, et de promouvoir un mode de vie sain et actif."
+      },
+      {
+        "id": 8,
+        "description": "Cette application Web affiche des informations détaillées sur les pays du monde entier à l'aide des données de l'API REST Countries. L'application est composée de plusieurs sections et composants interactifs qui permettent aux utilisateurs de rechercher, filtrer et trier des informations sur les pays."
       }
     ],
     "project": "Projet",

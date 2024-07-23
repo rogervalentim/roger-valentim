@@ -39,6 +39,10 @@
       {
         "id": 7,
         "description": "This is a simple and modern landing page for a fictional gym called Fitness Evolution. The page was created with the goal of attracting new members, showcasing the facilities and services offered by the gym, and promoting a healthy and active lifestyle. "
+      },
+      {
+        "id": 8,
+        "description": "This web application displays detailed information about countries around the world using data from the REST Countries API. The app is composed of several sections and interactive components that allow users to search, filter, and sort information about countries."
       }
     ],
     "project": "Project",

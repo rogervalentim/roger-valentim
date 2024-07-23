@@ -182,6 +182,21 @@ export const projectsData = [
     image: images.gym,
     deploy: "https://gym-app-mocha.vercel.app/",
     repository: "https://github.com/rogervalentim/gym_app"
+  },
+  {
+    id: 8,
+    name: "world ranks",
+    description:
+      "This web application displays detailed information about countries around the world using data from the REST Countries API. The app is composed of several sections and interactive components that allow users to search, filter, and sort information about countries.",
+    technologies: [
+      images.FaReact,
+      images.BiLogoTypescript,
+      images.BiLogoTailwindCss,
+      images.FaGithub
+    ],
+    image: images.world,
+    deploy: "https://world-ranks2.netlify.app/",
+    repository: "https://github.com/rogervalentim/world-ranks"
   }
 ];
 

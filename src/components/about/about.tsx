@@ -31,9 +31,9 @@ export function About() {
           />
         </figure>
 
-        <div className="pt-4 flex flex-col items-center justify-center">
+        <div className="pt-4 flex flex-col items-center px-6 lg:px-0 justify-center">
           <motion.div
-            className="flex justify-center flex-col px-5 items-center max-w-sm lg:max-w-lg"
+            className="flex justify-center flex-col  items-center max-w-sm lg:max-w-lg"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -43,9 +43,7 @@ export function About() {
               visible: { opacity: 1, x: 0 }
             }}
           >
-            <p className="px-6 lg:px-0 leading-normal text-primary">
-              {t("about")}
-            </p>
+            <p className=" leading-normal text-primary">{t("about")}</p>
             <Button
               type="button"
               className="font-bold w-full flex gap-2 mt-4 text-royal-blue-950 shadow-lg shadow-royal-blue-500/50 dark:shadow-royal-blue-800/50 bg-gradient-to-t from-royal-blue-500 to-royal-blue-600 hover:bg-gradient-to-t hover:from-royal-blue-600 hover:to-royal-blue-700"
