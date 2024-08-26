@@ -18,6 +18,7 @@ import {
   SiMui
 } from "react-icons/si";
 import rogerCine from "../assets/projects/roger-cine-new.jpg";
+import moviesNext from "../assets/projects/movies-next.png";
 import mksSistemas from "../assets/projects/mks-sistemas.jpg";
 import gym from "../assets/projects/gym.jpg";
 import woovi from "../assets/projects/woovi.svg";
@@ -49,6 +50,7 @@ export const images = {
   FaGitAlt,
   SiStyledcomponents,
   SiPrisma,
+  moviesNext,
   rogerCine,
   mksSistemas,
   gym,

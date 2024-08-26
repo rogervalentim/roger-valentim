@@ -79,18 +79,19 @@ export const skills = [
 export const projectsData = [
   {
     id: 1,
-    name: "Roger cine",
+    name: "Movies next",
     description:
-      "O Roger Cine é um portal interativo projetado para facilitar a descoberta de filmes, séries e informações sobre atores. Com uma interface intuitiva e recursos de busca avançados, os usuários podem encontrar facilmente o conteúdo de entretenimento que amam.",
+      "O Movies next é um portal interativo projetado para facilitar a descoberta de filmes, séries e informações sobre atores. Com uma interface intuitiva e recursos de busca avançados, os usuários podem encontrar facilmente o conteúdo de entretenimento que amam.",
     technologies: [
-      images.FaReact,
+      images.SiNextdotjs,
       images.BiLogoTailwindCss,
       images.BiLogoTypescript,
+      images.SiReactquery,
       images.FaGithub
     ],
-    image: images.rogerCine,
-    deploy: "https://roger-cines.netlify.app/",
-    repository: "https://github.com/rogervalentim/movies"
+    image: images.moviesNext,
+    deploy: "https://movies-next20.netlify.app/",
+    repository: "https://github.com/rogervalentim/movies-next"
   },
   {
     id: 2,

@@ -2,17 +2,11 @@ import { ArrowDownToLine } from "lucide-react";
 import computer from "../../assets/computer.jpg";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
-import curriculum from "../../assets/CV-ROGER-VALENTIM-FRONT-END.pdf";
-import curriculumEnglish from "../../assets/CV-ROGER-VALENTIM-FRONT-END-English.pdf";
+import curriculum from "../../assets/CV-ROGER-VALENTIM-FRONT-END-REACT.pdf";
 import { useTranslation } from "react-i18next";
-import { useLanguage } from "@/context/use-language";
 
 export function About() {
   const { t } = useTranslation();
-  const { currentLanguage } = useLanguage();
-
-  const curriculumUrl =
-    currentLanguage === "pt" ? curriculum : curriculumEnglish;
 
   return (
     <>
@@ -48,7 +42,7 @@ export function About() {
               type="button"
               className="font-bold w-full flex gap-2 mt-4 text-royal-blue-950 shadow-lg shadow-royal-blue-500/50 dark:shadow-royal-blue-800/50 bg-gradient-to-t from-royal-blue-500 to-royal-blue-600 hover:bg-gradient-to-t hover:from-royal-blue-600 hover:to-royal-blue-700"
             >
-              <a href={curriculumUrl} target="_blank" rel="noopener noreferrer">
+              <a href={curriculum} target="_blank" rel="noopener noreferrer">
                 {t("cv")}
               </a>
               <ArrowDownToLine className="text-royal-blue-950" />

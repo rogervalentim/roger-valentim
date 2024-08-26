@@ -2,7 +2,7 @@ import { navLinks } from "@/constants";
 import { Button } from "../ui/button";
 import { ArrowDownToLine } from "lucide-react";
 import { motion } from "framer-motion";
-import curriculum from "../../assets/CV-ROGER-VALENTIM-FRONT-END.pdf";
+import curriculum from "../../assets/CV-ROGER-VALENTIM-FRONT-END-REACT.pdf";
 import { useTranslation } from "react-i18next";
 
 interface NavMobileProps {
