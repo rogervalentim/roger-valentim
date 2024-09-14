@@ -90,7 +90,7 @@ export const projectsData = [
       images.FaGithub
     ],
     image: images.moviesNext,
-    deploy: "https://movies-next20.netlify.app/",
+    deploy: "https://movies-next-neqeiz.next.genez.io/",
     repository: "https://github.com/rogervalentim/movies-next"
   },
   {
