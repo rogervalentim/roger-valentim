@@ -2,7 +2,6 @@ import { useState } from "react";
 import { MenuIcon, SunIcon, SunMoon } from "lucide-react";
 import { FaCode } from "react-icons/fa";
 import { navLinks } from "../../constants/index";
-import { NavMobile } from "./nav-mobile";
 import { motion } from "framer-motion";
 import { Separator } from "../ui/separator";
 import { useTranslation } from "react-i18next";
@@ -28,7 +27,6 @@ interface NavLink {
 }
 
 export function Navbar() {
-  const [openMenu, setOpenMenu] = useState<boolean>(false);
   const { t, i18n } = useTranslation();
   const { handleChangeLanguage } = useLanguage();
   const headerLinks: string[] = t("header", { returnObjects: true });
@@ -40,10 +38,6 @@ export function Navbar() {
     ...item,
     translatedLink: headerLinks[index]
   }));
-
-  function closeMenu() {
-    setOpenMenu(false);
-  }
 
   return (
     <motion.nav
@@ -160,7 +154,7 @@ export function Navbar() {
                 </div>
                 <div>
                   {i18n.language !== "en" && (
-                    <div
+                    <button
                       className="flex gap-2 items-center cursor-pointer rounded hover:bg-muted px-2"
                       onClick={() => handleChangeLanguage("en")}
                     >
@@ -170,10 +164,10 @@ export function Navbar() {
                         className="w-5 h-5"
                       />{" "}
                       {t("english")}
-                    </div>
+                    </button>
                   )}
                   {i18n.language !== "pt" && (
-                    <div
+                    <button
                       className="flex gap-2 items-center cursor-pointer rounded hover:bg-muted px-2"
                       onClick={() => handleChangeLanguage("pt")}
                     >
@@ -183,10 +177,10 @@ export function Navbar() {
                         className="w-5 h-5"
                       />{" "}
                       {t("portuguese")}
-                    </div>
+                    </button>
                   )}
                   {i18n.language !== "es" && (
-                    <div
+                    <button
                       className="flex gap-2 items-center cursor-pointer rounded hover:bg-muted px-2"
                       onClick={() => handleChangeLanguage("es")}
                     >
@@ -196,10 +190,10 @@ export function Navbar() {
                         className="w-5 h-5"
                       />{" "}
                       {t("spanish")}
-                    </div>
+                    </button>
                   )}
                   {i18n.language !== "fr" && (
-                    <div
+                    <button
                       className="flex gap-2 items-center cursor-pointer rounded hover:bg-muted px-2"
                       onClick={() => handleChangeLanguage("fr")}
                     >
@@ -209,7 +203,7 @@ export function Navbar() {
                         className="w-5 h-5"
                       />{" "}
                       {t("french")}
-                    </div>
+                    </button>
                   )}
                 </div>
               </div>
@@ -217,7 +211,6 @@ export function Navbar() {
           </DrawerContent>
         </Drawer>
       </div>
-      {openMenu && <NavMobile closeMenu={closeMenu} />}
     </motion.nav>
   );
 }
